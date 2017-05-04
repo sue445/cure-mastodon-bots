@@ -6,15 +6,29 @@ begin
 rescue LoadError # rubocop:disable Lint/HandleExceptions
 end
 
+begin
+  require "dotenv"
+  Dotenv.load
+rescue LoadError # rubocop:disable Lint/HandleExceptions
+end
+
+require "rollbar/rake_tasks"
+
+task :environment do
+  Rollbar.configure do |config|
+    config.access_token = ENV["ROLLBAR_ACCESS_TOKEN"]
+  end
+end
+
 namespace :bot do
   desc "Post precure birthday when today is someone's birthday"
-  task :birthday do
+  task :birthday => :environment do
     require_relative "./birthday_bot"
     BirthdayBot.new.perform
   end
 
   desc "Sample precure"
-  task :sample do
+  task :sample => :environment do
     require_relative "./sample_bot"
     SampleBot.new.perform
   end
