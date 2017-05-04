@@ -82,6 +82,7 @@ DEPENDENCIES
   dotenv
   mastodon-api
   onkcop
+  rake
   rspec
   rubicure
   timecop
