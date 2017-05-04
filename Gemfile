@@ -6,4 +6,5 @@ gem "rubicure"
 
 group :development do
   gem "dotenv"
+  gem "onkcop"
 end
