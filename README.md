@@ -17,6 +17,7 @@ vi .env
 heroku config:set MASTODON_URL=https://precure.ml
 heroku config:set ACCESS_TOKEN_SAMPLE=xxxxxxxxx
 heroku config:set ACCESS_TOKEN_BIRTHDAY=xxxxxxxxx
+heroku config:add ROLLBAR_ACCESS_TOKEN=xxxxxxxxx
 ```
 
 ### Scheduler
