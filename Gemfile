@@ -11,3 +11,8 @@ group :development do
   gem "dotenv"
   gem "onkcop"
 end
+
+group :test do
+  gem "rspec"
+  gem "timecop"
+end
