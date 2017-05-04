@@ -10,7 +10,7 @@ gem "rubicure"
 
 group :development do
   gem "dotenv"
-  gem "onkcop"
+  gem "onkcop", require: false
 end
 
 group :test do
