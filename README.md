@@ -11,3 +11,19 @@ bundle install
 cp .env.example .env
 vi .env
 ```
+
+## Setup Heroku
+```bash
+heroku config:set MASTODON_URL=https://precure.ml
+heroku config:set ACCESS_TOKEN_SAMPLE=xxxxxxxxx
+heroku config:set ACCESS_TOKEN_BIRTHDAY=xxxxxxxxx
+```
+
+### Scheduler
+register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
+
+![Heroku Scheduler](img/heroku_scheduler.png)
+
+tasks
+
+* `bundle exec rake bot:birthday`
