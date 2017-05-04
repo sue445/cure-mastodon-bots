@@ -6,6 +6,7 @@ ruby "2.4.1"
 
 gem "mastodon-api", require: "mastodon"
 gem "rake", require: false
+gem "rollbar"
 gem "rubicure"
 
 group :development do
