@@ -10,7 +10,7 @@ describe OnAirBot do
     subject { bot.perform }
 
     before do
-      Timecop.freeze("2017-05-07 08:21:30")
+      Timecop.freeze("2017-05-07 08:21:30".in_time_zone)
     end
 
     let(:expected_message) do

@@ -4,7 +4,7 @@ describe BirthdayBot do
   describe "#perform" do
     context "When birthday of someone" do
       before do
-        Timecop.freeze("2016-06-12")
+        Timecop.freeze("2016-06-12".in_time_zone)
       end
 
       it "posts tweet" do
@@ -16,7 +16,7 @@ describe BirthdayBot do
 
     context "When birthday of nobody" do
       before do
-        Timecop.freeze("2016-01-01")
+        Timecop.freeze("2016-01-01".in_time_zone)
       end
 
       it "does not post tweet" do
