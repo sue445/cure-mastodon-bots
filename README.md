@@ -29,3 +29,4 @@ register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
 tasks
 
 * `bundle exec rake bot:birthday`
+* `bundle exec rake bot:on_air`
