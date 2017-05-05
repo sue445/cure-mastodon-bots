@@ -32,4 +32,10 @@ namespace :bot do
     require_relative "./sample_bot"
     SampleBot.new.perform
   end
+
+  desc "Post precure program after 10 mitutes from now"
+  task :on_air => :environment do
+    require_relative "./on_air_bot"
+    OnAirBot.new.perform
+  end
 end
