@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/sue445/syobocal.git
+  revision: 4e2c584b68e17750548dedce48321f281b30133d
+  ref: 4e2c58
+  branch: time_with_zone
+  specs:
+    syobocal (0.9.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -76,7 +84,6 @@ GEM
     ruby-progressbar (1.8.1)
     safe_yaml (1.0.4)
     sengiri_yaml (0.0.3)
-    syobocal (0.9.1)
     thread_safe (0.3.6)
     timecop (0.8.1)
     tzinfo (1.2.3)
@@ -102,7 +109,7 @@ DEPENDENCIES
   rspec
   rspec-its
   rubicure
-  syobocal
+  syobocal!
   timecop
   webmock
 
