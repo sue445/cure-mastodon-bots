@@ -1,7 +1,7 @@
 Bundler.require(:default, :test)
 
-require_relative "../birthday_bot"
-require_relative "../on_air_bot"
+require_relative "../lib/birthday_bot"
+require_relative "../lib/on_air_bot"
 
 require "webmock/rspec"
 
