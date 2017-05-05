@@ -8,6 +8,7 @@ gem "mastodon-api", require: "mastodon"
 gem "rake", require: false
 gem "rollbar"
 gem "rubicure"
+gem "syobocal"
 
 group :development do
   gem "dotenv"
@@ -16,5 +17,7 @@ end
 
 group :test do
   gem "rspec"
+  gem "rspec-its"
   gem "timecop"
+  gem "webmock"
 end
