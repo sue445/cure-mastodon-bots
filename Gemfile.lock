@@ -1,10 +1,11 @@
 GIT
   remote: git://github.com/sue445/syobocal.git
-  revision: 4e2c584b68e17750548dedce48321f281b30133d
-  ref: 4e2c58
+  revision: 76cf9bed6c2cdb661b7f8760f055fbb401b8d7fb
+  ref: 76cf9b
   branch: time_with_zone
   specs:
     syobocal (0.9.1)
+      activesupport
 
 GEM
   remote: https://rubygems.org/

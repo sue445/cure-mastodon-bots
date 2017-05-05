@@ -8,7 +8,7 @@ gem "mastodon-api", require: "mastodon"
 gem "rake", require: false
 gem "rollbar"
 gem "rubicure"
-gem "syobocal", github: "sue445/syobocal", branch: "time_with_zone", ref: "4e2c58"
+gem "syobocal", github: "sue445/syobocal", branch: "time_with_zone", ref: "76cf9b"
 
 group :development do
   gem "dotenv"
