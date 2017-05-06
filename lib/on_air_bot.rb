@@ -48,11 +48,11 @@ class OnAirBot < Bot
       start_time = program[:st_time].strftime("%H:%M")
 
       message = <<~EOS
-        このあとすぐ！
-
         #{channel}#{start_time}〜
         #{program[:title]}
         第#{program[:count]}話 #{program[:sub_title]}
+
+        このあとすぐ！
       EOS
 
       message.strip
