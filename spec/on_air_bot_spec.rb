@@ -15,11 +15,11 @@ describe OnAirBot do
 
     let(:expected_message) do
       <<~EOS
-        このあとすぐ！
-
         【テレビ朝日】【ABCテレビ】【メ～テレ】08:30〜
         キラキラ☆プリキュアアラモード
         第14話 お嬢さまロックンロール！
+
+        このあとすぐ！
       EOS
     end
 
