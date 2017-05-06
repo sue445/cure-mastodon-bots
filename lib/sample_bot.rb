@@ -6,8 +6,8 @@ class SampleBot < Bot
   end
 
   def perform
-    girl = Precure.all_girls.sample
-    post_message(girl.precure_name)
+    series_title = Precure.map(&:title).sample
+    post_message(series_title)
   end
 end
 
