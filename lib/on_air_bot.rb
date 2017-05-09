@@ -26,7 +26,8 @@ class OnAirBot < Bot
   # @param start_at [Time]
   # @param end_at   [Time]
   def self.programs(start_at, end_at)
-    prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: 1)
+    days = (end_at.to_date - start_at.to_date).to_i + 1
+    prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
     prog_items.select do |item|
       (start_at...end_at).cover?(item[:st_time])
     end
