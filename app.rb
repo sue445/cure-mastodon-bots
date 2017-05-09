@@ -10,4 +10,8 @@ require "rollbar/middleware/sinatra"
 
 class App < Sinatra::Base
   use Rollbar::Middleware::Sinatra
+
+  get "/" do
+    slim :index
+  end
 end
