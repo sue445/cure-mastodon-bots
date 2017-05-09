@@ -26,7 +26,7 @@ class App < Sinatra::Base
     slim :index
   end
 
-  helpers do
+  helpers do # rubocop:disable Metrics/BlockLength
     def girl_birthdays(from_date, to_date)
       date_girls = {}
       girls = Precure.all.select(&:have_birthday?)
