@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 ruby "2.4.1"
 
+gem "dalli"
 gem "jemalloc", require: false
 gem "mastodon-api", require: "mastodon"
 gem "puma"
