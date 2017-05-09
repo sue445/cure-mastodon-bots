@@ -11,3 +11,24 @@ table.table.table-striped.table-hover
       tr
         td = date
         td = girl.precure_name
+
+h2 Precure broadcast soon
+table.table.table-striped.table-hover
+  thead
+    tr
+      th Time
+      th Channel
+      th Title
+      th Count
+      th Subtitle
+  tbody
+    - @precure_programs.each do |program|
+      tr
+        td = program[:st_time]
+        td = program[:ch_name]
+        td = program[:title]
+        td
+          | 第
+          = program[:count]
+          | 話
+        td = program[:sub_title]

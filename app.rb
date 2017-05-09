@@ -7,13 +7,19 @@ end
 Bundler.require(:default, ENV["RACK_ENV"])
 
 require "rollbar/middleware/sinatra"
+require_relative "./lib/on_air_bot"
 
 class App < Sinatra::Base
   use Rollbar::Middleware::Sinatra
 
+  before do
+    Time.zone = "Tokyo"
+  end
+
   get "/" do
     today = Time.current.to_date
     @date_girls = girl_birthdays(today, today + 3.months)
+    @precure_programs = OnAirBot.programs(today, today + 2.weeks).select{ |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
     slim :index
   end
 
