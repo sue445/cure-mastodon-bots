@@ -7,6 +7,9 @@
       "description": "bundle install --without <these>",
       "value": "test:development"
     },
+    "RACK_ENV": {
+      "value": "production"
+    },
     "MASTODON_URL": {
       "description": "Mastodon instance url (e.g. https://mastodon.social)"
     },

@@ -15,10 +15,18 @@ cp .env.example .env
 vi .env
 ```
 
+## Run
+```
+bundle exec foreman s
+```
+
+open http://localhost:3000/
+
 # Heroku
 ## Setup
 ```bash
 heroku config:set MASTODON_URL=https://precure.ml
+heroku config:set RACK_ENV=production
 heroku config:set ACCESS_TOKEN_SAMPLE=xxxxxxxxx
 heroku config:set ACCESS_TOKEN_BIRTHDAY=xxxxxxxxx
 heroku config:set ACCESS_TOKEN_ON_AIR=xxxxxxxxx
