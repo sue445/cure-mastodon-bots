@@ -1,12 +1,12 @@
 Bundler.require(:default, :test)
 
+ENV["RACK_ENV"] = "test"
+
 require_relative "../app"
 require_relative "../lib/birthday_bot"
 require_relative "../lib/on_air_bot"
 
 require "webmock/rspec"
-
-ENV["RACK_ENV"] = "test"
 
 Time.zone = "Tokyo"
 
