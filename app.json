@@ -1,0 +1,31 @@
+{
+  "name": "cure-mastodon-bots",
+  "description": "Precure mastodon bot",
+  "keywords": ["ruby", "Precure", "PrettyCure", "rubicure", "Mastodon"],
+  "env": {
+    "BUNDLE_WITHOUT": {
+      "description": "bundle install --without <these>",
+      "value": "test:development"
+    },
+    "MASTODON_URL": {
+      "description": "Mastodon instance url (e.g. https://mastodon.social)"
+    },
+    "ACCESS_TOKEN_SAMPLE": {
+      "description": "access_token for bot:sample",
+      "required": false
+    },
+    "ACCESS_TOKEN_BIRTHDAY": {
+      "description": "access_token for bot:birthday",
+      "required": false
+    },
+    "ACCESS_TOKEN_ON_AIR": {
+      "description": "access_token for bot:on_air",
+      "required": false
+    }
+  },
+  "addons": [
+    "rollbar",
+    "papertrail",
+    "scheduler"
+  ]
+}
