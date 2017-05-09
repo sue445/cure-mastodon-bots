@@ -3,6 +3,7 @@ Precure mastodon bot
 
 * https://precure.ml/@precure_birthday_bot
 * https://precure.ml/@precure_onair_bot
+* https://cure-mastodon-bots.herokuapp.com/
 
 [![Dependency Status](https://gemnasium.com/badges/github.com/sue445/cure-mastodon-bots.svg)](https://gemnasium.com/github.com/sue445/cure-mastodon-bots)
 

@@ -1,6 +1,7 @@
 {
   "name": "cure-mastodon-bots",
   "description": "Precure mastodon bot",
+  "website": "https://cure-mastodon-bots.herokuapp.com/",
   "keywords": ["ruby", "Precure", "PrettyCure", "rubicure", "Mastodon"],
   "env": {
     "BUNDLE_WITHOUT": {
