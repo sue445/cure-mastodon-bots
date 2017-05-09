@@ -15,7 +15,8 @@ cp .env.example .env
 vi .env
 ```
 
-## Setup Heroku
+# Heroku
+## Setup
 ```bash
 heroku config:set MASTODON_URL=https://precure.ml
 heroku config:set ACCESS_TOKEN_SAMPLE=xxxxxxxxx
@@ -24,7 +25,7 @@ heroku config:set ACCESS_TOKEN_ON_AIR=xxxxxxxxx
 heroku config:add ROLLBAR_ACCESS_TOKEN=xxxxxxxxx
 ```
 
-### Scheduler
+## Scheduler
 register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
 
 ![Heroku Scheduler](img/heroku_scheduler.png)
@@ -33,3 +34,6 @@ tasks
 
 * `bundle exec rake bot:birthday`
 * `bundle exec rake bot:on_air`
+
+## Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
