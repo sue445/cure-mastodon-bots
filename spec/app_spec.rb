@@ -11,6 +11,10 @@ describe App do
       last_response
     end
 
+    before do
+      allow_any_instance_of(App).to receive(:precure_programs) { [] } # rubocop:disable RSpec/AnyInstance
+    end
+
     it { should be_ok }
   end
 end

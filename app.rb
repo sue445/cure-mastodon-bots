@@ -22,9 +22,7 @@ class App < Sinatra::Base
   get "/" do
     today = Time.current.to_date
     @date_girls = girl_birthdays(today, today + BIRTHDAY_MONTHS.months)
-    @precure_programs = fetch_cache("precure_programs") do
-      OnAirBot.programs(today, today + PROGRAM_WEEKS.weeks).select{ |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
-    end
+    @precure_programs = precure_programs
     slim :index
   end
 
@@ -45,6 +43,13 @@ class App < Sinatra::Base
       date_girls.select! { |date, _girl| (from_date..to_date).cover?(date) }
 
       Hash[date_girls.sort]
+    end
+
+    def precure_programs
+      today = Time.current.to_date
+      fetch_cache("precure_programs") do
+        OnAirBot.programs(today, today + PROGRAM_WEEKS.weeks).select{ |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
+      end
     end
 
     def fetch_cache(key)
