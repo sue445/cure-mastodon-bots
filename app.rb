@@ -48,7 +48,7 @@ class App < Sinatra::Base
     def precure_programs
       today = Time.current.to_date
       fetch_cache("precure_programs") do
-        OnAirBot.programs(today, today + PROGRAM_WEEKS.weeks).select{ |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
+        OnAirBot.programs(today, today + PROGRAM_WEEKS.weeks).select { |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
       end
     end
 
