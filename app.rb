@@ -12,14 +12,17 @@ require_relative "./lib/on_air_bot"
 class App < Sinatra::Base
   use Rollbar::Middleware::Sinatra
 
+  BIRTHDAY_MONTHS = 3
+  PROGRAM_WEEKS = 2
+
   before do
     Time.zone = "Tokyo"
   end
 
   get "/" do
     today = Time.current.to_date
-    @date_girls = girl_birthdays(today, today + 3.months)
-    @precure_programs = OnAirBot.programs(today, today + 2.weeks).select{ |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
+    @date_girls = girl_birthdays(today, today + BIRTHDAY_MONTHS.months)
+    @precure_programs = OnAirBot.programs(today, today + PROGRAM_WEEKS.weeks).select{ |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
     slim :index
   end
 
