@@ -4,6 +4,10 @@ h2
   = BIRTHDAY_MONTHS
   | &nbsp;months)
 
+.alert.alert-info role="alert"
+  | If you want to use ical (e.g. register to Google Calendar), see&nbsp;
+  a href="https://rubicure.herokuapp.com/"
+    | RubicureAPI
 
 table.table.table-striped.table-hover
   thead
@@ -14,7 +18,7 @@ table.table.table-striped.table-hover
   tbody
     - @date_girls.each do |date, girl|
       tr
-        td.text-right = date
+        td.text-right = date.strftime("%Y/%m/%d")
         td = girl.precure_name
         td = girl.human_name
 
@@ -22,6 +26,12 @@ h2
   | Precure broadcast soon (
   = PROGRAM_WEEKS
   | &nbsp;weeks)
+
+p
+  | via.&nbsp;
+  a href="http://cal.syoboi.jp/"
+    | しょぼいカレンダー
+
 table.table.table-striped.table-hover
   thead
     tr
@@ -33,7 +43,10 @@ table.table.table-striped.table-hover
   tbody
     - @precure_programs.each do |program|
       tr
-        td = program[:st_time]
+        td
+          = program[:st_time].strftime("%Y/%m/%d %H:%M")
+          | 〜
+          = program[:ed_time].strftime("%H:%M")
         td = program[:ch_name]
         td = program[:title]
         td.text-right
