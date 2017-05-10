@@ -36,7 +36,7 @@ heroku config:add ROLLBAR_ACCESS_TOKEN=xxxxxxxxx
 ```
 
 ## Scheduler
-register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
+Register rake tasks to [Heroku Scheduler](https://addons.heroku.com/scheduler)
 
 ![Heroku Scheduler](img/heroku_scheduler.png)
 
