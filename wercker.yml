@@ -6,7 +6,9 @@
 box: ruby:2.4.1
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
-# services:
+services:
+    - memcached
+
     # - postgres
     # http://devcenter.wercker.com/docs/services/postgresql.html
 
@@ -39,6 +41,11 @@ build-rspec:
 
         - bundle-install:
             jobs: 4
+
+        - script:
+            name: copy setting
+            code: |
+              cp wercker/memcached.yml config/global/memcached.yml
 
         - script:
             name: rspec

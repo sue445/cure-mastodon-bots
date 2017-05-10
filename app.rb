@@ -4,6 +4,7 @@ begin
 rescue LoadError # rubocop:disable Lint/HandleExceptions
 end
 
+ENV["RACK_ENV"] ||= "development"
 Bundler.require(:default, ENV["RACK_ENV"])
 
 require "rollbar/middleware/sinatra"
@@ -17,6 +18,11 @@ class App < Sinatra::Base
 
   before do
     Time.zone = "Tokyo"
+
+    Global.configure do |config|
+      config.environment = ENV["RACK_ENV"]
+      config.config_directory = "#{__dir__}/config/global"
+    end
   end
 
   get "/" do
@@ -76,7 +82,7 @@ class App < Sinatra::Base
     end
 
     def cache_client
-      options = { namespace: "cure-mastodon-bots", compress: true, expires_in: 5.minutes }
+      options = { namespace: Global.memcached.namespace, compress: true, expires_in: Global.memcached.expire_minutes.minutes }
 
       Dalli.logger.level = Logger::WARN
 
@@ -86,8 +92,7 @@ class App < Sinatra::Base
         options[:password] = ENV["MEMCACHEDCLOUD_PASSWORD"]
         Dalli::Client.new(ENV["MEMCACHEDCLOUD_SERVERS"].split(","), options)
       else
-        # localhost
-        Dalli::Client.new("localhost:11211", options)
+        Dalli::Client.new("#{Global.memcached.host}:#{Global.memcached.port}", options)
       end
     end
   end

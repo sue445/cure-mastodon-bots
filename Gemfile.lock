@@ -28,6 +28,8 @@ GEM
     dotenv (2.2.1)
     foreman (0.84.0)
       thor (~> 0.19.1)
+    global (0.2.1)
+      activesupport (>= 2.0)
     hashdiff (0.3.4)
     hashie (3.5.5)
     http (2.2.2)
@@ -127,6 +129,7 @@ DEPENDENCIES
   dalli
   dotenv
   foreman
+  global
   jemalloc
   mastodon-api
   onkcop
