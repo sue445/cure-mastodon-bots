@@ -18,8 +18,9 @@ describe App do
         to_return(status: 200, body: read_stub("cal_chk_20170507.xml"))
     end
 
-    let(:days){ 1 + App::PROGRAM_WEEKS.weeks }
+    let(:days) { 1 + App::PROGRAM_WEEKS * 7 }
 
     it { should be_ok }
+    its(:errors) { should eq "" }
   end
 end
