@@ -1,0 +1,8 @@
+default:
+  namespace: "cure-mastodon-bots"
+  expire_minutes: 5
+  host: "localhost"
+  port: 11211
+
+test:
+  host: "memcached"

@@ -1,11 +1,15 @@
 {
   "name": "cure-mastodon-bots",
   "description": "Precure mastodon bot",
+  "website": "https://cure-mastodon-bots.herokuapp.com/",
   "keywords": ["ruby", "Precure", "PrettyCure", "rubicure", "Mastodon"],
   "env": {
     "BUNDLE_WITHOUT": {
       "description": "bundle install --without <these>",
       "value": "test:development"
+    },
+    "RACK_ENV": {
+      "value": "production"
     },
     "MASTODON_URL": {
       "description": "Mastodon instance url (e.g. https://mastodon.social)"
@@ -24,6 +28,7 @@
     }
   },
   "addons": [
+    "memcachedcloud",
     "rollbar",
     "papertrail",
     "scheduler"

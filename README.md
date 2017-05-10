@@ -3,6 +3,7 @@ Precure mastodon bot
 
 * https://precure.ml/@precure_birthday_bot
 * https://precure.ml/@precure_onair_bot
+* https://cure-mastodon-bots.herokuapp.com/
 
 [![Dependency Status](https://gemnasium.com/badges/github.com/sue445/cure-mastodon-bots.svg)](https://gemnasium.com/github.com/sue445/cure-mastodon-bots)
 
@@ -15,10 +16,18 @@ cp .env.example .env
 vi .env
 ```
 
+## Run
+```
+bundle exec foreman s
+```
+
+open http://localhost:3000/
+
 # Heroku
 ## Setup
 ```bash
 heroku config:set MASTODON_URL=https://precure.ml
+heroku config:set RACK_ENV=production
 heroku config:set ACCESS_TOKEN_SAMPLE=xxxxxxxxx
 heroku config:set ACCESS_TOKEN_BIRTHDAY=xxxxxxxxx
 heroku config:set ACCESS_TOKEN_ON_AIR=xxxxxxxxx

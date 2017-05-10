@@ -1,0 +1,43 @@
+h1 cure-mastodon-bots
+h2
+  | Precures with their birthday coming soon (
+  = BIRTHDAY_MONTHS
+  | &nbsp;months)
+
+
+table.table.table-striped.table-hover
+  thead
+    tr
+      th.text-right Date
+      th Precure name
+      th Human name
+  tbody
+    - @date_girls.each do |date, girl|
+      tr
+        td.text-right = date
+        td = girl.precure_name
+        td = girl.human_name
+
+h2
+  | Precure broadcast soon (
+  = PROGRAM_WEEKS
+  | &nbsp;weeks)
+table.table.table-striped.table-hover
+  thead
+    tr
+      th Time
+      th Channel
+      th Title
+      th.text-right Count
+      th Subtitle
+  tbody
+    - @precure_programs.each do |program|
+      tr
+        td = program[:st_time]
+        td = program[:ch_name]
+        td = program[:title]
+        td.text-right
+          | 第
+          = program[:count]
+          | 話
+        td = program[:sub_title]
