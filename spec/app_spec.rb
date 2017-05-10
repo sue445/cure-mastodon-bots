@@ -12,8 +12,13 @@ describe App do
     end
 
     before do
-      allow_any_instance_of(App).to receive(:precure_programs) { [] } # rubocop:disable RSpec/AnyInstance
+      Timecop.freeze("2017-05-07 08:30:00".in_time_zone)
+
+      stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=#{days}&start=2017-05-07").
+        to_return(status: 200, body: read_stub("cal_chk_20170507.xml"))
     end
+
+    let(:days){ 1 + App::PROGRAM_WEEKS.weeks }
 
     it { should be_ok }
   end
