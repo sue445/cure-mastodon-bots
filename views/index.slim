@@ -38,7 +38,7 @@ table.table.table-striped.table-hover
       th Time
       th Channel
       th Title
-      th.text-right Count
+      th.text-right Story number
       th Subtitle
   tbody
     - @precure_programs.each do |program|
@@ -51,6 +51,6 @@ table.table.table-striped.table-hover
         td = program[:title]
         td.text-right
           | 第
-          = program[:count]
+          = program[:story_number]
           | 話
         td = program[:sub_title]
