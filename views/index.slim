@@ -44,13 +44,13 @@ table.table.table-striped.table-hover
     - @precure_programs.each do |program|
       tr
         td
-          = program[:st_time].strftime("%Y/%m/%d %H:%M")
+          = program.st_time.strftime("%Y/%m/%d %H:%M")
           | 〜
-          = program[:ed_time].strftime("%H:%M")
-        td = program[:ch_name]
-        td = program[:title]
+          = program.ed_time.strftime("%H:%M")
+        td = program.ch_name
+        td = program.title
         td.text-right
           | 第
-          = program[:story_number]
+          = program.story_number
           | 話
-        td = program[:sub_title]
+        td = program.sub_title
