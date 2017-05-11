@@ -150,6 +150,7 @@ DEPENDENCIES
   dotenv
   foreman
   global
+  hashie
   jemalloc
   mastodon-api
   onkcop

@@ -28,6 +28,7 @@ class OnAirBot < Bot
   def self.programs(start_at, end_at)
     days = (end_at.to_date - start_at.to_date).to_i + 1
     prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
+    prog_items = prog_items.map{ |prog_item| Hashie::Mash.new(prog_item) }
     prog_items.select do |item|
       (start_at...end_at).cover?(item[:st_time])
     end
