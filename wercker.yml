@@ -43,6 +43,7 @@ build-rspec:
 
         - bundle-install:
             jobs: 4
+            clear-path: true
 
         - script:
             name: copy setting
@@ -68,6 +69,7 @@ build-rubocop:
 
         - bundle-install:
             jobs: 4
+            clear-path: true
 
         - script:
             name: rubocop
