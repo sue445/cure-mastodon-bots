@@ -38,6 +38,6 @@ describe OnAirBot do
     let(:end_at)   { Time.zone.parse("2017-05-07 09:00:00") }
 
     its(:count) { should eq 7 }
-    its([4]) { should include(ch_id: 6, ch_name: "テレビ朝日", title: "キラキラ☆プリキュアアラモード", sub_title: "お嬢さまロックンロール！", count: 14) }
+    its([4]) { should include(ch_id: 6, ch_name: "テレビ朝日", title: "キラキラ☆プリキュアアラモード", sub_title: "お嬢さまロックンロール！", story_number: 14) }
   end
 end

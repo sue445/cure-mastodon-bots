@@ -10,13 +10,13 @@ class OnAirBot < Bot
   end
 
   def perform
-    on_air_programs = current_programs.select { |program| program[:title].include?(NOTIFY_TITLE) }
+    on_air_programs = current_programs.select { |program| program.title.include?(NOTIFY_TITLE) }
 
     return if on_air_programs.empty?
 
-    programs_by_title = on_air_programs.group_by { |program| [program[:title], program[:sub_title], program[:st_time]] }
+    programs_by_title = on_air_programs.group_by { |program| [program.title, program.sub_title, program.st_time] }
     programs_by_title.values.each do |programs|
-      ch_names = programs.sort_by { |program| program[:ch_id] }.map { |program| program[:ch_name] }
+      ch_names = programs.sort_by(&:ch_id).map(&:ch_name)
       message = generate_message(programs.first, ch_names)
 
       post_message(message)
@@ -28,8 +28,13 @@ class OnAirBot < Bot
   def self.programs(start_at, end_at)
     days = (end_at.to_date - start_at.to_date).to_i + 1
     prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
+    prog_items = prog_items.map do |prog_item|
+      # convert key: count -> story_number
+      prog_item[:story_number] = prog_item.delete(:count)
+      Hashie::Mash.new(prog_item)
+    end
     prog_items.select do |item|
-      (start_at...end_at).cover?(item[:st_time])
+      (start_at...end_at).cover?(item.st_time)
     end
   end
 
@@ -46,12 +51,12 @@ class OnAirBot < Bot
 
     def generate_message(program, ch_names)
       channel = ch_names.map { |ch_name| "【#{ch_name}】" }.join
-      start_time = program[:st_time].strftime("%H:%M")
+      start_time = program.st_time.strftime("%H:%M")
 
       message = <<~EOS
         #{channel}#{start_time}〜
-        #{program[:title]}
-        第#{program[:count]}話 #{program[:sub_title]}
+        #{program.title}
+        第#{program.story_number}話 #{program.sub_title}
 
         このあとすぐ！
       EOS
