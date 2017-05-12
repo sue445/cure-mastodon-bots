@@ -32,12 +32,21 @@ describe OnAirBot do
   end
 
   describe ".programs" do
-    subject { OnAirBot.programs(start_at, end_at) }
+    subject(:programs) { OnAirBot.programs(start_at, end_at) }
 
     let(:start_at) { Time.zone.parse("2017-05-07 08:30:00") }
     let(:end_at)   { Time.zone.parse("2017-05-07 09:00:00") }
 
     its(:count) { should eq 7 }
-    its([4]) { should include(ch_id: 6, ch_name: "テレビ朝日", title: "キラキラ☆プリキュアアラモード", sub_title: "お嬢さまロックンロール！", story_number: 14) }
+
+    describe "[4]" do
+      subject { programs[4] }
+
+      its(:ch_id)        { should eq 6 }
+      its(:ch_name)      { should eq "テレビ朝日" }
+      its(:title)        { should eq "キラキラ☆プリキュアアラモード" }
+      its(:sub_title)    { should eq "お嬢さまロックンロール！" }
+      its(:story_number) { should eq 14 }
+    end
   end
 end
