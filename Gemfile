@@ -15,7 +15,7 @@ gem "rollbar"
 gem "rubicure"
 gem "sinatra"
 gem "slim"
-gem "syobocal", github: "sue445/syobocal", branch: "time_with_zone", ref: "76cf9b"
+gem "syobocal"
 
 group :development do
   gem "dotenv"
