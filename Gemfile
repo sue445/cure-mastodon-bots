@@ -21,6 +21,7 @@ group :development do
   gem "dotenv"
   gem "foreman", require: false
   gem "onkcop", require: false
+  gem "pry-byebug", group: :test
 end
 
 group :test do
