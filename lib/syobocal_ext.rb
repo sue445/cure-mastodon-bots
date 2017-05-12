@@ -9,6 +9,10 @@ end
 
 require "syobocal"
 
+module Syobocal::CalChk
+  using ForceTimeWithZone
+end
+
 # module Syobocal::CalChk
 #   class << self
 #     using ForceTimeWithZone
@@ -23,6 +27,6 @@ require "syobocal"
 #   using ForceTimeWithZone
 # end
 
-Syobocal::CalChk.singleton_class.instance_eval do
-  using ForceTimeWithZone
-end
+# Syobocal::CalChk.singleton_class.instance_eval do
+#   using ForceTimeWithZone
+# end
