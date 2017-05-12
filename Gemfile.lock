@@ -168,7 +168,7 @@ DEPENDENCIES
   simplecov
   sinatra
   slim
-  syobocal
+  syobocal (= 0.9.1)
   timecop
   webmock
 
