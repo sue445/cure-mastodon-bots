@@ -47,6 +47,10 @@ describe OnAirBot do
       its(:title)        { should eq "キラキラ☆プリキュアアラモード" }
       its(:sub_title)    { should eq "お嬢さまロックンロール！" }
       its(:story_number) { should eq 14 }
+      its(:st_time)      { should eq "2017-05-07 08:30:00".in_time_zone }
+      its(:st_time)      { should be_instance_of ActiveSupport::TimeWithZone }
+      its(:ed_time)      { should eq "2017-05-07 09:00:00".in_time_zone }
+      its(:ed_time)      { should be_instance_of ActiveSupport::TimeWithZone }
     end
   end
 end
