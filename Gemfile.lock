@@ -1,12 +1,3 @@
-GIT
-  remote: git://github.com/sue445/syobocal.git
-  revision: 76cf9bed6c2cdb661b7f8760f055fbb401b8d7fb
-  ref: 76cf9b
-  branch: time_with_zone
-  specs:
-    syobocal (0.9.1)
-      activesupport
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -131,7 +122,6 @@ GEM
     slim (3.0.8)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 1.3.3, < 2.1)
-    syobocal (0.9.1)
     slop (3.6.0)
     syobocal (0.9.1)
     temple (0.8.0)
@@ -178,7 +168,7 @@ DEPENDENCIES
   simplecov
   sinatra
   slim
-  syobocal!
+  syobocal (= 0.9.1)
   timecop
   webmock
 

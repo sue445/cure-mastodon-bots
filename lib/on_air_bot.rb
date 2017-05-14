@@ -1,4 +1,5 @@
 require_relative "./bot"
+require_relative "./syobocal_ext"
 
 class OnAirBot < Bot
   NOTIFY_TITLE = "プリキュア".freeze
