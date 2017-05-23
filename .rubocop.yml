@@ -12,3 +12,6 @@ AllCops:
 
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
+
+Metrics/BlockLength:
+  Max: 28
