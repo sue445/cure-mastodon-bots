@@ -60,5 +60,17 @@ class App < Sinatra::Base
         OnAirBot.programs(today, today + PROGRAM_WEEKS.weeks).select { |program| program[:title].include?(OnAirBot::NOTIFY_TITLE) }
       end
     end
+
+    def week_class(time)
+      date = time.to_date
+
+      if HolidayJp.holiday?(date) || date.sunday?
+        # red
+        "danger"
+      elsif date.saturday?
+        # blue
+        "info"
+      end
+    end
   end
 end

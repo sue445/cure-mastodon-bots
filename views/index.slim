@@ -21,7 +21,7 @@ table.table.table-striped.table-hover
       th Human name
   tbody
     - @date_girls.each do |date, girl|
-      tr
+      tr class = week_class(date)
         td.text-right = date.strftime("%Y/%m/%d(%a)")
         td = girl.precure_name
         td = girl.human_name
@@ -50,7 +50,7 @@ table.table.table-striped.table-hover
       th Subtitle
   tbody
     - @precure_programs.each do |program|
-      tr
+      tr class = week_class(program.st_time)
         td
           = program.st_time.strftime("%Y/%m/%d(%a) %H:%M")
           | 〜
