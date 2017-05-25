@@ -15,3 +15,6 @@ Style/TrailingCommaInArguments:
 
 Metrics/BlockLength:
   Max: 28
+
+Lint/ScriptPermission:
+  Enabled: false
