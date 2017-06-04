@@ -1,5 +1,5 @@
 default:
   namespace: "cure-mastodon-bots"
-  expire_minutes: 5
+  expire_minutes: 60
   host: "localhost"
   port: 11211
