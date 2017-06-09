@@ -61,4 +61,8 @@ table.table.table-striped.table-hover
           | 第
           = program.story_number
           | 話
-        td = program.sub_title
+        td
+          = program.sub_title
+          - unless program.prog_comment.blank?
+            span.label.label-info
+              = program.prog_comment.gsub(/^!/, "")
