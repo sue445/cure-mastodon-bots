@@ -15,7 +15,7 @@ class App < Sinatra::Base
   use Rollbar::Middleware::Sinatra
 
   BIRTHDAY_MONTHS = 3
-  PROGRAM_WEEKS = 5
+  PROGRAM_WEEKS = 1
 
   before do
     Time.zone = "Tokyo"
