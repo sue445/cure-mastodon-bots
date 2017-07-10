@@ -83,6 +83,7 @@ deploy:
             key-name: WERCKER_HEROKU_DEPLOY
             app-name: $HEROKU_APP_NAME
             key: $HEROKU_KEY
+            run: rake clear_cache
 
     after-steps:
         - wantedly/pretty-slack-notify:

@@ -1,4 +1,8 @@
 module CacheUtils
+  require "global"
+
+  module_function
+
   def fetch_cache(key)
     cache = cache_client
 
