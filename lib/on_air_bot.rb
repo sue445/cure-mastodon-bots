@@ -54,13 +54,13 @@ class OnAirBot < Bot
       channel = ch_names.map { |ch_name| "【#{ch_name}】" }.join
       start_time = program.st_time.strftime("%H:%M")
 
-      message = <<~EOS
+      message = <<~MESSAGE
         #{channel}#{start_time}〜
         #{program.title}
         第#{program.story_number}話 #{program.sub_title}
 
         このあとすぐ！
-      EOS
+      MESSAGE
 
       message.strip
     end
