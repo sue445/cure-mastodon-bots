@@ -14,11 +14,8 @@ class OnAirBot < Bot
 
     return if on_air_programs.empty?
 
-    programs_by_title = on_air_programs.group_by { |program| [program.title, program.sub_title, program.st_time] }
-    programs_by_title.values.each do |programs|
-      ch_names = programs.sort_by(&:ch_id).map(&:ch_name)
-      message = generate_message(programs.first, ch_names)
-
+    SyobocalUtils.each_with_same_story_number(on_air_programs) do |program, ch_names|
+      message = generate_message(program, ch_names)
       post_message(message)
     end
   end
