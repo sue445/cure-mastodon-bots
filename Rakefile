@@ -46,6 +46,12 @@ namespace :bot do
     require_relative "./lib/on_air_bot"
     OnAirBot.new.perform
   end
+
+  desc "Post precure program onair today"
+  task :today_on_air => :environment do
+    require_relative "./lib/today_on_air_bot"
+    TodayOnAirBot.new.perform
+  end
 end
 
 desc "Clear cache"

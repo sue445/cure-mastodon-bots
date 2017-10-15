@@ -44,6 +44,7 @@ tasks
 
 * `bundle exec rake bot:birthday`
 * `bundle exec rake bot:on_air`
+* `bundle exec rake bot:today_on_air`
 
 ## Deploy to Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
