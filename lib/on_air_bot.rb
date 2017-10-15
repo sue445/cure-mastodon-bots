@@ -57,10 +57,18 @@ class OnAirBot < Bot
       message = <<~MESSAGE
         #{channel}#{start_time}〜
         #{program.title}
-        第#{program.story_number}話 #{program.sub_title}
-
-        このあとすぐ！
       MESSAGE
+
+      if program.story_number >= 1 || !program.sub_title.blank?
+        line = []
+
+        line << "第#{program.story_number}話" if program.story_number >= 1
+        line << program.sub_title unless program.sub_title.blank?
+
+        message << "#{line.join(" ")}\n"
+      end
+
+      message << "\nこのあとすぐ！\n"
 
       message.strip
     end
