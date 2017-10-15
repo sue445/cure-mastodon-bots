@@ -32,22 +32,7 @@ class OnAirBot < Bot
     end
 
     def generate_message(program, ch_names)
-      channel = ch_names.map { |ch_name| "【#{ch_name}】" }.join
-      start_time = program.st_time.strftime("%H:%M")
-
-      message = <<~MESSAGE
-        #{channel}#{start_time}〜
-        #{program.title}
-      MESSAGE
-
-      if program.story_number >= 1 || !program.sub_title.blank?
-        line = []
-
-        line << "第#{program.story_number}話" if program.story_number >= 1
-        line << program.sub_title unless program.sub_title.blank?
-
-        message << "#{line.join(" ")}\n"
-      end
+      message = SyobocalUtils.format_program(program, ch_names)
 
       message << "\nこのあとすぐ！\n"
 

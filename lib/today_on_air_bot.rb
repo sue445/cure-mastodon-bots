@@ -11,14 +11,14 @@ class TodayOnAirBot < Bot
 
     return if on_air_programs.empty?
 
-    message = "今日のプリキュア"
+    message = "今日のプリキュア\n"
 
     SyobocalUtils.each_with_same_story_number(on_air_programs) do |program, ch_names|
-      message << "\n\n"
-      message << generate_message(program, ch_names)
+      message << "\n"
+      message << SyobocalUtils.format_program(program, ch_names)
     end
 
-    post_message(message)
+    post_message(message.strip)
   end
 
   private
@@ -30,27 +30,6 @@ class TodayOnAirBot < Bot
       end_at = current_time.end_of_day
 
       SyobocalUtils.programs(start_at: start_at, end_at: end_at, squeeze: true)
-    end
-
-    def generate_message(program, ch_names)
-      channel = ch_names.map { |ch_name| "【#{ch_name}】" }.join
-      start_time = program.st_time.strftime("%H:%M")
-
-      message = <<~MESSAGE
-        #{channel}#{start_time}〜
-        #{program.title}
-      MESSAGE
-
-      if program.story_number >= 1 || !program.sub_title.blank?
-        line = []
-
-        line << "第#{program.story_number}話" if program.story_number >= 1
-        line << program.sub_title unless program.sub_title.blank?
-
-        message << "#{line.join(" ")}\n"
-      end
-
-      message.strip
     end
 end
 
