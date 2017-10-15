@@ -1,5 +1,5 @@
 require_relative "./bot"
-require_relative "./syobocal_ext"
+require_relative "./syobocal_utils"
 
 class OnAirBot < Bot
   NOTIFY_TITLE = "プリキュア".freeze
@@ -24,21 +24,6 @@ class OnAirBot < Bot
     end
   end
 
-  # @param start_at [Time]
-  # @param end_at   [Time]
-  def self.programs(start_at, end_at)
-    days = (end_at.to_date - start_at.to_date).to_i + 1
-    prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
-    prog_items = prog_items.map do |prog_item|
-      # convert key: count -> story_number
-      prog_item[:story_number] = prog_item.delete(:count)
-      Hashie::Mash.new(prog_item)
-    end
-    prog_items.select do |item|
-      (start_at...end_at).cover?(item.st_time)
-    end
-  end
-
   private
 
     def current_programs
@@ -47,7 +32,7 @@ class OnAirBot < Bot
       start_at = current_time.change(min: min, sec: 0) + DELAY_MINUTES.minutes
       end_at = start_at + RANGE_MINUTES.minutes
 
-      OnAirBot.programs(start_at, end_at)
+      SyobocalUtils.programs(start_at, end_at)
     end
 
     def generate_message(program, ch_names)
