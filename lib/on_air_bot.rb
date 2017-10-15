@@ -2,7 +2,6 @@ require_relative "./bot"
 require_relative "./syobocal_utils"
 
 class OnAirBot < Bot
-  NOTIFY_TITLE = "プリキュア".freeze
   DELAY_MINUTES = 10
   RANGE_MINUTES = 30
 
@@ -11,7 +10,7 @@ class OnAirBot < Bot
   end
 
   def perform
-    on_air_programs = current_programs.select { |program| program.title.include?(NOTIFY_TITLE) }
+    on_air_programs = current_programs
 
     return if on_air_programs.empty?
 
@@ -32,7 +31,7 @@ class OnAirBot < Bot
       start_at = current_time.change(min: min, sec: 0) + DELAY_MINUTES.minutes
       end_at = start_at + RANGE_MINUTES.minutes
 
-      SyobocalUtils.programs(start_at, end_at)
+      SyobocalUtils.programs(start_at: start_at, end_at: end_at, squeeze: true)
     end
 
     def generate_message(program, ch_names)
