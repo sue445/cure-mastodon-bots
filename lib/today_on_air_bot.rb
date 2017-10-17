@@ -1,5 +1,5 @@
 require_relative "./bot"
-require_relative "./syobocal_utils"
+require_relative "./program"
 
 class TodayOnAirBot < Bot
   def initialize
@@ -13,9 +13,9 @@ class TodayOnAirBot < Bot
 
     message = "今日のプリキュア\n"
 
-    SyobocalUtils.each_with_same_story_number(on_air_programs) do |program, ch_names|
+    Program.each_with_same_story_number(on_air_programs) do |program, ch_names|
       message << "\n"
-      message << SyobocalUtils.format_program(program, ch_names)
+      message << Program.format_program(program, ch_names)
     end
 
     post_message(message.strip)
@@ -29,7 +29,7 @@ class TodayOnAirBot < Bot
       start_at = current_time.beginning_of_day
       end_at = current_time.end_of_day
 
-      SyobocalUtils.programs(start_at: start_at, end_at: end_at, squeeze: true)
+      Program.programs(start_at: start_at, end_at: end_at, squeeze: true)
     end
 end
 

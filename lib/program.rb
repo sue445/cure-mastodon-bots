@@ -1,6 +1,6 @@
 require_relative "./syobocal_ext"
 
-module SyobocalUtils
+module Program
   NOTIFY_TITLE = "プリキュア".freeze
 
   # Get programs from start_at to end_at

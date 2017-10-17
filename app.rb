@@ -57,7 +57,7 @@ class App < Sinatra::Base
     def precure_programs
       today = Time.current.beginning_of_day
       fetch_cache("precure_programs") do
-        SyobocalUtils.programs(start_at: today, end_at: today + PROGRAM_WEEKS.weeks, squeeze: true)
+        Program.programs(start_at: today, end_at: today + PROGRAM_WEEKS.weeks, squeeze: true)
       end
     end
 
