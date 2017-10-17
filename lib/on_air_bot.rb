@@ -1,5 +1,5 @@
 require_relative "./bot"
-require_relative "./syobocal_utils"
+require_relative "./program"
 
 class OnAirBot < Bot
   DELAY_MINUTES = 10
@@ -14,7 +14,7 @@ class OnAirBot < Bot
 
     return if on_air_programs.empty?
 
-    SyobocalUtils.each_with_same_story_number(on_air_programs) do |program, ch_names|
+    Program.each_with_same_story_number(on_air_programs) do |program, ch_names|
       message = generate_message(program, ch_names)
       post_message(message)
     end
@@ -28,11 +28,11 @@ class OnAirBot < Bot
       start_at = current_time.change(min: min, sec: 0) + DELAY_MINUTES.minutes
       end_at = start_at + RANGE_MINUTES.minutes
 
-      SyobocalUtils.programs(start_at: start_at, end_at: end_at, squeeze: true)
+      Program.search(start_at: start_at, end_at: end_at, squeeze: true)
     end
 
     def generate_message(program, ch_names)
-      message = SyobocalUtils.format_program(program, ch_names)
+      message = program.format(ch_names)
 
       message << "\nこのあとすぐ！\n"
 

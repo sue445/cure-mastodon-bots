@@ -1,6 +1,6 @@
-describe SyobocalUtils do
-  describe ".programs" do
-    subject(:programs) { SyobocalUtils.programs(start_at: start_at, end_at: end_at, squeeze: squeeze) }
+describe Program do
+  describe ".search" do
+    subject(:programs) { Program.search(start_at: start_at, end_at: end_at, squeeze: squeeze) }
 
     before do
       stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=1&start=2017-05-07").
@@ -15,9 +15,9 @@ describe SyobocalUtils do
 
       its(:count) { should eq 3 }
 
-      it "title all include '#{SyobocalUtils::NOTIFY_TITLE}'" do
+      it "title all include '#{Program::NOTIFY_TITLE}'" do
         titles = subject.map(&:title)
-        expect(titles).to all(include(SyobocalUtils::NOTIFY_TITLE))
+        expect(titles).to all(include(Program::NOTIFY_TITLE))
       end
 
       describe "[0]" do
