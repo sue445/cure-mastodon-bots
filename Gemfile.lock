@@ -155,7 +155,6 @@ DEPENDENCIES
   dotenv
   foreman
   global
-  hashie
   holiday_jp
   jemalloc
   mastodon-api

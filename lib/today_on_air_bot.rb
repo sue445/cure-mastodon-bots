@@ -15,7 +15,7 @@ class TodayOnAirBot < Bot
 
     Program.each_with_same_story_number(on_air_programs) do |program, ch_names|
       message << "\n"
-      message << Program.format_program(program, ch_names)
+      message << program.format(ch_names)
     end
 
     post_message(message.strip)

@@ -32,7 +32,7 @@ class OnAirBot < Bot
     end
 
     def generate_message(program, ch_names)
-      message = Program.format_program(program, ch_names)
+      message = program.format(ch_names)
 
       message << "\nこのあとすぐ！\n"
 

@@ -7,7 +7,6 @@ ruby "2.4.1"
 gem "activesupport", require: "active_support/all"
 gem "dalli"
 gem "global"
-gem "hashie"
 gem "holiday_jp"
 gem "jemalloc", require: false
 gem "mastodon-api", require: "mastodon"
