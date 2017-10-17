@@ -29,7 +29,7 @@ class TodayOnAirBot < Bot
       start_at = current_time.beginning_of_day
       end_at = current_time.end_of_day
 
-      Program.programs(start_at: start_at, end_at: end_at, squeeze: true)
+      Program.search(start_at: start_at, end_at: end_at, squeeze: true)
     end
 end
 

@@ -10,7 +10,7 @@ module Program
   # @param squeeze  [Boolean] Whether squueze with {NOTIFY_TITLE}
   #
   # @return [Array<Hashie::Mash>]
-  def self.programs(start_at:, end_at:, squeeze: false)
+  def self.search(start_at:, end_at:, squeeze: false)
     days = (end_at.to_date - start_at.to_date).to_i + 1
     prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
 

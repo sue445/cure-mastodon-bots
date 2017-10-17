@@ -28,7 +28,7 @@ class OnAirBot < Bot
       start_at = current_time.change(min: min, sec: 0) + DELAY_MINUTES.minutes
       end_at = start_at + RANGE_MINUTES.minutes
 
-      Program.programs(start_at: start_at, end_at: end_at, squeeze: true)
+      Program.search(start_at: start_at, end_at: end_at, squeeze: true)
     end
 
     def generate_message(program, ch_names)
