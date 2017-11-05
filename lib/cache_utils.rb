@@ -31,6 +31,6 @@ module CacheUtils
 
     Dalli.logger.level = Logger::WARN
 
-    @cache_client = Dalli::Client.new(Global.memcached.servers, Global.memcached.options.to_hash)
+    @cache_client = Dalli::Client.new(Global.memcached.servers, Global.memcached.options.to_hash.symbolize_keys)
   end
 end
