@@ -1,6 +1,6 @@
 default:
   servers:
-    - "localhost:11211"
+    - "<%= ENV.fetch('MEMCACHED_HOST', 'localhost') %>:11211"
   options:
     namespace: "cure-mastodon-bots"
     compress: true

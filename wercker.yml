@@ -40,15 +40,11 @@ build-rspec:
               export RUBYOPT=-EUTF-8
               export CI=true
               export CODECLIMATE_REPO_TOKEN=345e206f4ed868ab470360349c3d98b2bba2243053b22203894ebcb64dc9c5f2
+              export MEMCACHED_HOST=memcached
 
         - bundle-install:
             jobs: 4
             clear-path: true
-
-        - script:
-            name: copy setting
-            code: |
-              cp wercker/memcached.yml config/global/memcached.yml
 
         - script:
             name: rspec
