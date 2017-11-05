@@ -29,18 +29,8 @@ module CacheUtils
   def cache_client
     return @cache_client if @cache_client
 
-    options = { namespace: Global.memcached.namespace, compress: true, expires_in: Global.memcached.expire_minutes.minutes }
-
     Dalli.logger.level = Logger::WARN
 
-    @cache_client =
-      if ENV["MEMCACHEDCLOUD_SERVERS"]
-        # Heroku
-        options[:username] = ENV["MEMCACHEDCLOUD_USERNAME"]
-        options[:password] = ENV["MEMCACHEDCLOUD_PASSWORD"]
-        Dalli::Client.new(ENV["MEMCACHEDCLOUD_SERVERS"].split(","), options)
-      else
-        Dalli::Client.new("#{Global.memcached.host}:#{Global.memcached.port}", options)
-      end
+    @cache_client = Dalli::Client.new(Global.memcached.servers, Global.memcached.options.to_hash)
   end
 end
