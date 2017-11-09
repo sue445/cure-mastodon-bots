@@ -16,7 +16,7 @@ class Program
     @st_offset    = attrs[:st_offset]
     @sub_title    = attrs[:sub_title]
     @title        = attrs[:title]
-    @prog_comment = attrs[:prog_comment]
+    @prog_comment = attrs[:prog_comment]&.gsub(/^!/, "")
   end
 
   # Get programs from start_at to end_at
@@ -71,6 +71,10 @@ class Program
       line << sub_title unless sub_title.blank?
 
       message << "#{line.join(" ")}\n"
+    end
+
+    unless prog_comment.blank?
+      message << "※#{prog_comment}\n"
     end
 
     message

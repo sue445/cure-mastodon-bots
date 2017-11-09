@@ -42,6 +42,7 @@ describe OnAirBot do
         <<~MESSAGE
           【東映チャンネル】13:30〜
           映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！
+          ※本編72分
 
           このあとすぐ！
         MESSAGE

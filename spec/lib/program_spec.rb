@@ -121,5 +121,35 @@ describe Program do
 
       it { should eq expected_message }
     end
+
+    context "has prog_comment" do
+      let(:attrs) do
+        {
+          pid: 428238,
+          tid: 4747,
+          st_time: Time.zone.parse("20171015133000"),
+          ed_time: Time.zone.parse("20171015145000"),
+          ch_name: "東映チャンネル",
+          ch_id: 39,
+          count: 0,
+          st_offset: 0,
+          sub_title: "",
+          title: "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！",
+          prog_comment: "本編72分"
+        }
+      end
+
+      let(:ch_names) { %w[東映チャンネル] }
+
+      let(:expected_message) do
+        <<~MESSAGE
+          【東映チャンネル】13:30〜
+          映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！
+          ※本編72分
+        MESSAGE
+      end
+
+      it { should eq expected_message }
+    end
   end
 end
