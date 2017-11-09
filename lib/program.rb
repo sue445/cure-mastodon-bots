@@ -53,6 +53,7 @@ class Program
     end
   end
 
+  # rubocop:disable Metrics/AbcSize
   def format(ch_names = nil)
     ch_names = [ch_name] unless ch_names
 
@@ -79,4 +80,5 @@ class Program
 
     message
   end
+  # rubocop:enable Metrics/AbcSize
 end
