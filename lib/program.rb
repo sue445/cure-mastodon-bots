@@ -16,7 +16,7 @@ class Program
     @st_offset    = attrs[:st_offset]
     @sub_title    = attrs[:sub_title]
     @title        = attrs[:title]
-    @prog_comment = attrs[:prog_comment]
+    @prog_comment = attrs[:prog_comment]&.gsub(/^!/, "")
   end
 
   # Get programs from start_at to end_at
@@ -53,6 +53,7 @@ class Program
     end
   end
 
+  # rubocop:disable Metrics/AbcSize
   def format(ch_names = nil)
     ch_names = [ch_name] unless ch_names
 
@@ -73,6 +74,11 @@ class Program
       message << "#{line.join(" ")}\n"
     end
 
+    unless prog_comment.blank?
+      message << "※#{prog_comment}\n"
+    end
+
     message
   end
+  # rubocop:enable Metrics/AbcSize
 end
