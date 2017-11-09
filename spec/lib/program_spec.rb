@@ -106,7 +106,7 @@ describe Program do
           st_offset: 0,
           sub_title: "",
           title: "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！",
-          prog_comment: ""
+          prog_comment: "",
         }
       end
 
@@ -135,7 +135,7 @@ describe Program do
           st_offset: 0,
           sub_title: "",
           title: "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！",
-          prog_comment: "本編72分"
+          prog_comment: "本編72分",
         }
       end
 
