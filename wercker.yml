@@ -72,6 +72,8 @@ build-rubocop:
             code: bundle exec rubocop
 
 deploy:
+    <<: *default
+
     steps:
         - heroku-deploy:
             install-toolbelt: true
@@ -80,8 +82,3 @@ deploy:
             app-name: $HEROKU_APP_NAME
             key: $HEROKU_KEY
             run: rake clear_cache
-
-    after-steps:
-        - wantedly/pretty-slack-notify:
-            webhook_url: $SLACK_WEBHOOK_URL
-            username: wercker_build
