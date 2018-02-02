@@ -70,6 +70,8 @@ GEM
       pry (~> 0.10)
     public_suffix (3.0.1)
     puma (3.11.2)
+    puma-heroku (1.0.0)
+      puma (~> 3.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
@@ -161,6 +163,7 @@ DEPENDENCIES
   onkcop
   pry-byebug
   puma
+  puma-heroku
   rack-test
   rake
   rollbar
@@ -174,5 +177,8 @@ DEPENDENCIES
   timecop
   webmock
 
+RUBY VERSION
+   ruby 2.5.0p0
+
 BUNDLED WITH
-   1.15.4
+   1.16.1
