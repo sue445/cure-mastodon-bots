@@ -72,7 +72,7 @@ GEM
     puma (3.11.2)
     puma-heroku (1.0.0)
       puma (~> 3.0)
-    rack (2.0.3)
+    rack (2.0.4)
     rack-protection (2.0.0)
       rack
     rack-test (0.8.2)
@@ -96,7 +96,7 @@ GEM
     rspec-mocks (3.7.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
-    rspec-support (3.7.0)
+    rspec-support (3.7.1)
     rubicure (1.0.7)
       activesupport (>= 5.0.0)
       hashie (>= 2.0.5)
@@ -108,7 +108,7 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
-    rubocop-rspec (1.22.1)
+    rubocop-rspec (1.22.2)
       rubocop (>= 0.52.1)
     ruby-progressbar (1.9.0)
     safe_yaml (1.0.4)
@@ -176,9 +176,6 @@ DEPENDENCIES
   syobocal (= 0.9.1)
   timecop
   webmock
-
-RUBY VERSION
-   ruby 2.5.0p0
 
 BUNDLED WITH
    1.16.1
