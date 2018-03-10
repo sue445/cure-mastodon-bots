@@ -49,7 +49,7 @@ class App < Sinatra::Base
         end
       end
 
-      date_girls.select! { |date, _girl| (from_date..to_date).cover?(date) }
+      date_girls.select! {|date, _girl| (from_date..to_date).cover?(date) }
 
       Hash[date_girls.sort]
     end
