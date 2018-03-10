@@ -30,13 +30,13 @@ class Program
     days = (end_at.to_date - start_at.to_date).to_i + 1
     prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
 
-    programs = prog_items.map { |prog_item| Program.new(prog_item) }
+    programs = prog_items.map {|prog_item| Program.new(prog_item) }
 
     programs.select! do |item|
       (start_at...end_at).cover?(item.st_time)
     end
 
-    programs.select! { |program| program.title.include?(NOTIFY_TITLE) } if squeeze
+    programs.select! {|program| program.title.include?(NOTIFY_TITLE) } if squeeze
 
     programs
   end
@@ -45,7 +45,7 @@ class Program
   # @yieldparam program [Program]
   # @yieldparam ch_names [Array<String>]
   def self.each_with_same_story_number(programs)
-    programs_by_title = programs.group_by { |program| [program.title, program.sub_title, program.st_time] }
+    programs_by_title = programs.group_by {|program| [program.title, program.sub_title, program.st_time] }
     programs_by_title.values.each do |_programs|
       ch_names = _programs.sort_by(&:ch_id).map(&:ch_name)
 
@@ -57,7 +57,7 @@ class Program
   def format(ch_names = nil)
     ch_names = [ch_name] unless ch_names
 
-    channel = ch_names.map { |ch_name| "【#{ch_name}】" }.join
+    channel = ch_names.map {|ch_name| "【#{ch_name}】" }.join
     start_time = st_time.strftime("%H:%M")
 
     message = <<~MESSAGE

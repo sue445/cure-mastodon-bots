@@ -8,7 +8,7 @@ class BirthdayBot < Bot
   def perform
     today = Time.current.to_date
 
-    birthday_girls = Precure.all.select { |girl| girl.birthday?(today) }
+    birthday_girls = Precure.all.select {|girl| girl.birthday?(today) }
 
     if birthday_girls.empty?
       puts "#{today} is not nobody's birthday"
