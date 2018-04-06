@@ -27,8 +27,9 @@ class Program
   #
   # @return [Array<Program>]
   def self.search(start_at:, end_at:, squeeze: false)
+    # NOTE: If start_at is 2018/4/7, returns 2018/4/7 05:00 - 28:59(2018/4/8 04:59)
     days = (end_at.to_date - start_at.to_date).to_i + 1
-    prog_items = Syobocal::CalChk.get(start: start_at.to_date, days: days)
+    prog_items = Syobocal::CalChk.get(start: start_at.to_date - 1, days: days + 1)
 
     programs = prog_items.map {|prog_item| Program.new(prog_item) }
 

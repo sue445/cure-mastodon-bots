@@ -3,8 +3,8 @@ describe Program do
     subject(:programs) { Program.search(start_at: start_at, end_at: end_at, squeeze: squeeze) }
 
     before do
-      stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=1&start=2017-05-07").
-        to_return(status: 200, body: read_stub("cal_chk_20170507.xml"))
+      stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=2&start=2017-05-06").
+        to_return(status: 200, body: read_stub("cal_chk_20170506-20170507.xml"))
     end
 
     let(:start_at) { Time.zone.parse("2017-05-07 08:30:00") }
