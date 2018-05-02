@@ -14,8 +14,8 @@ class Program
     @ch_id        = attrs[:ch_id]
     @story_number = attrs[:count]
     @st_offset    = attrs[:st_offset]
-    @sub_title    = attrs[:sub_title]
-    @title        = attrs[:title]
+    @sub_title    = sanitize_text(attrs[:sub_title])
+    @title        = sanitize_text(attrs[:title])
     @prog_comment = attrs[:prog_comment]&.gsub(/^!/, "")
   end
 
@@ -82,4 +82,10 @@ class Program
     message
   end
   # rubocop:enable Metrics/AbcSize
+
+  private
+
+    def sanitize_text(str)
+      CGI.unescapeHTML(str)
+    end
 end
