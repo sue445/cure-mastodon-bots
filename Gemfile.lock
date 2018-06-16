@@ -30,7 +30,7 @@ GEM
     dotenv (2.4.0)
     foreman (0.84.0)
       thor (~> 0.19.1)
-    global (0.2.2)
+    global (1.0.0)
       activesupport (>= 2.0)
     hashdiff (0.3.7)
     hashie (3.5.7)
