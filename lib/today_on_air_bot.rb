@@ -1,5 +1,5 @@
 require_relative "./bot"
-require_relative "./program"
+require_relative "./program_manager"
 
 class TodayOnAirBot < Bot
   def initialize
@@ -13,7 +13,7 @@ class TodayOnAirBot < Bot
 
     message = "今日のプリキュア\n"
 
-    Program.each_with_same_story_number(on_air_programs) do |program, ch_names|
+    ProgramManager.each_with_same_story_number(on_air_programs) do |program, ch_names|
       message << "\n"
       message << program.format(ch_names)
     end
@@ -29,7 +29,7 @@ class TodayOnAirBot < Bot
       start_at = current_time.beginning_of_day
       end_at = current_time.end_of_day
 
-      Program.search(start_at: start_at, end_at: end_at, squeeze: true)
+      ProgramManager.search(start_at: start_at, end_at: end_at, squeeze: true)
     end
 end
 

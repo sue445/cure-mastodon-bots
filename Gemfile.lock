@@ -55,6 +55,7 @@ GEM
     method_source (0.9.0)
     minitest (5.11.3)
     multi_json (1.13.1)
+    multi_xml (0.6.0)
     mustermann (1.0.3)
     onkcop (0.53.0.1)
       rubocop (>= 0.53.0)
@@ -128,7 +129,9 @@ GEM
     slim (4.0.1)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
-    syobocal (0.9.1)
+    syobocalite (0.1.0)
+      activesupport
+      multi_xml
     temple (0.8.0)
     term-ansicolor (1.6.0)
       tins (~> 1.0)
@@ -175,9 +178,12 @@ DEPENDENCIES
   simplecov
   sinatra
   slim
-  syobocal (= 0.9.1)
+  syobocalite
   timecop
   webmock
 
+RUBY VERSION
+   ruby 2.5.1p57
+
 BUNDLED WITH
-   1.16.1
+   1.16.6

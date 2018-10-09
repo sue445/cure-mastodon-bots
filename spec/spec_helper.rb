@@ -17,7 +17,7 @@ ENV["RACK_ENV"] = "test"
 require_relative "../app"
 require_relative "../lib/birthday_bot"
 require_relative "../lib/on_air_bot"
-require_relative "../lib/program"
+require_relative "../lib/program_manager"
 require_relative "../lib/today_on_air_bot"
 
 require "webmock/rspec"

@@ -17,7 +17,7 @@ gem "rollbar"
 gem "rubicure"
 gem "sinatra"
 gem "slim"
-gem "syobocal", "0.9.1" # app contains monkey patch
+gem "syobocalite"
 
 group :development do
   gem "dotenv"
