@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syobocal url="http://cal.syoboi.jp/" version="" LastUpdate="20181010004220" SPID="nikeno" SPNAME="しょぼいカレンダー">
+<ProgItems>
+<ProgItem PID="447248" TID="4071" StTime="20180502060000" EdTime="20180502063000" ChName="キッズステーション" ChID="22" Count="16" StOffset="0" SubTitle="不思議なかすみ／フェアリルキャンディ騒動" Title="リルリルフェアリル～妖精のドア～" ProgComment=""/>
+<ProgItem PID="446886" TID="4309" StTime="20180502070000" EdTime="20180502073000" ChName="サンテレビジョン" ChID="58" Count="16" StOffset="0" SubTitle="打倒MのParadox" Title="仮面ライダーエグゼイド" ProgComment=""/>
+<ProgItem PID="448606" TID="1903" StTime="20180502071500" EdTime="20180502072500" ChName="NHK Eテレ" ChID="2" Count="368" StOffset="0" SubTitle="地下大金庫VS怪盗アルル／イチゴじゃない！" Title="はなかっぱ" ProgComment=""/>
+<ProgItem PID="447396" TID="1564" StTime="20180502073000" EdTime="20180502080000" ChName="サンテレビジョン" ChID="58" Count="35" StOffset="0" SubTitle="シフォンの隠された秘密！" Title="フレッシュプリキュア！" ProgComment=""/>
+<ProgItem PID="447425" TID="1342" StTime="20180502073000" EdTime="20180502080000" ChName="KBS京都" ChID="66" Count="52" StOffset="0" SubTitle="恋の三元中継！ジャマ者はお前だ!!" Title="タッチ" ProgComment=""/>
+<ProgItem PID="448354" TID="4357" StTime="20180502073000" EdTime="20180502073500" ChName="テレビ東京" ChID="7" Count="194" StOffset="0" SubTitle="でんしゃごっこ？" Title="きんだーてれび" ProgComment=""/>
+<ProgItem PID="448616" TID="4357" StTime="20180502073000" EdTime="20180502073500" ChName="テレビ愛知" ChID="59" Count="194" StOffset="0" SubTitle="でんしゃごっこ？" Title="きんだーてれび" ProgComment=""/>
+<ProgItem PID="445933" TID="4841" StTime="20180502120000" EdTime="20180502122500" ChName="バンダイチャンネル" ChID="107" Count="4" StOffset="0" SubTitle="秋とふわりふわりの幸せのコト" Title="あまんちゅ！～あどばんす～" ProgComment=""/>
+<ProgItem PID="445945" TID="4891" StTime="20180502120000" EdTime="20180502120400" ChName="バンダイチャンネル" ChID="107" Count="4" StOffset="0" SubTitle="受難とトイレ" Title="立花館To Lieあんぐる" ProgComment=""/>
+<ProgItem PID="446102" TID="4792" StTime="20180502120000" EdTime="20180502122500" ChName="バンダイチャンネル" ChID="107" Count="17" StOffset="0" SubTitle="一同、修羅に集う" Title="バジリスク ～桜花忍法帖～" ProgComment=""/>
+<ProgItem PID="446753" TID="4895" StTime="20180502120000" EdTime="20180502122300" ChName="バンダイチャンネル" ChID="107" Count="5" StOffset="0" SubTitle="悪党の覚悟" Title="ルパン三世 PART5" ProgComment=""/>
+<ProgItem PID="448698" TID="2518" StTime="20180502120000" EdTime="20180502180000" ChName="アニマックス" ChID="21" Count="" StOffset="0" SubTitle="#1～#12" Title="坂道のアポロン" ProgComment="全話一挙放送"/>
+<ProgItem PID="449366" TID="4889" StTime="20180502120000" EdTime="20180502122500" ChName="バンダイチャンネル" ChID="107" Count="4" StOffset="0" SubTitle="翼持つものたちの群舞" Title="されど罪人は竜と踊る" ProgComment=""/>
+<ProgItem PID="448550" TID="120" StTime="20180502133000" EdTime="20180502140000" ChName="AT-X" ChID="20" Count="139" StOffset="0" SubTitle="" Title="promo-X" ProgComment=""/>
+<ProgItem PID="446420" TID="1085" StTime="20180502160000" EdTime="20180502163000" ChName="TOKYO MX2" ChID="187" Count="38" StOffset="0" SubTitle=" 新しい家で" Title="アルプスの少女ハイジ" ProgComment=""/>
+<ProgItem PID="444492" TID="4824" StTime="20180502170000" EdTime="20180502172900" ChName="BSテレ東" ChID="15" Count="17" StOffset="-3480" SubTitle="ゴールデンウィーク！ピカちんキット大集合！" Title="ポチっと発明 ピカちんキット" ProgComment=""/>
+<ProgItem PID="446436" TID="3692" StTime="20180502163000" EdTime="20180502170000" ChName="TOKYO MX2" ChID="187" Count="49" StOffset="0" SubTitle="勝つのは誰だ？／レディとバブルガムの冒険" Title="アドベンチャー・タイム" ProgComment=""/>
+<ProgItem PID="443144" TID="4896" StTime="20180502172900" EdTime="20180502175800" ChName="BSテレ東" ChID="15" Count="5" StOffset="-3480" SubTitle="花草神社の龍喚士!?" Title="パズドラ" ProgComment=""/>
+<ProgItem PID="442299" TID="214" StTime="20180502170000" EdTime="20180502173000" ChName="チバテレビ" ChID="13" Count="6" StOffset="0" SubTitle="山犬ガオンの挑戦／パカパカキッド" Title="ニャニがニャンだーニャンダーかめん" ProgComment="!5/3は放送休止"/>
+<ProgItem PID="446451" TID="1564" StTime="20180502170000" EdTime="20180502173000" ChName="TOKYO MX2" ChID="187" Count="18" StOffset="0" SubTitle="プリキュアに会いたい！小さな女の子の願い!!" Title="フレッシュプリキュア！" ProgComment=""/>
+<ProgItem PID="443782" TID="4716" StTime="20180502172000" EdTime="20180502172500" ChName="NHK Eテレ" ChID="2" Count="5" StOffset="0" SubTitle="ぎゅっていいね、ペネロペ" Title="うっかりペネロペ(第4シリーズ)" ProgComment=""/>
+<ProgItem PID="448079" TID="4344" StTime="20180502172500" EdTime="20180502175500" ChName="テレビ愛知" ChID="59" Count="46" StOffset="0" SubTitle="国際会議を狙え" Title="怪盗ジョーカー シーズン4" ProgComment=""/>
+<ProgItem PID="438718" TID="3518" StTime="20180502173000" EdTime="20180502180000" ChName="チバテレビ" ChID="13" Count="46" StOffset="0" SubTitle="彼らはなぜ戦わなければならなかったのか" Title="仮面ライダードライブ" ProgComment=""/>
+<ProgItem PID="449846" TID="3527" StTime="20180502173000" EdTime="20180502180000" ChName="ぎふチャン" ChID="83" Count="13" StOffset="0" SubTitle="激走、山中湖" Title="弱虫ペダル GRANDE ROAD" ProgComment=""/>
+<ProgItem PID="448611" TID="3732" StTime="20180502174500" EdTime="20180502175500" ChName="NHK Eテレ" ChID="2" Count="273" StOffset="0" SubTitle="アズキ、調子にのらない" Title="ゴー！ゴー！キッチン戦隊クックルン" ProgComment=""/>
+<ProgItem PID="448542" TID="4570" StTime="20180502175500" EdTime="20180502182500" ChName="テレビ愛知" ChID="59" Count="8" StOffset="0" SubTitle="スーパー探検家ピーターパンパン" Title="スナックワールド" ProgComment="大冒険セレクション"/>
+<ProgItem PID="448546" TID="4570" StTime="20180502175500" EdTime="20180502182500" ChName="テレビ東京" ChID="7" Count="8" StOffset="0" SubTitle="スーパー探検家ピーターパンパン" Title="スナックワールド" ProgComment="大冒険セレクション"/>
+<ProgItem PID="441757" TID="3753" StTime="20180502180000" EdTime="20180502190000" ChName="超!A&amp;G+" ChID="156" Count="5" StOffset="0" SubTitle="" Title="A&amp;G ARTIST ZONE THE CATCH" ProgComment="パーソナリティ：YURiKA"/>
+<ProgItem PID="446149" TID="4790" StTime="20180502180000" EdTime="20180502182500" ChName="バンダイチャンネル" ChID="107" Count="16" StOffset="0" SubTitle="さくらと苺鈴のおともだち" Title="カードキャプターさくら クリアカード編" ProgComment=""/>
+<ProgItem PID="448766" TID="220" StTime="20180502180000" EdTime="20180502183000" ChName="テレ玉" ChID="14" Count="27" StOffset="0" SubTitle="オヤジーデがやってきた!?" Title="おジャ魔女どれみ" ProgComment=""/>
+<ProgItem PID="443386" TID="4592" StTime="20180502182500" EdTime="20180502185500" ChName="テレビ愛知" ChID="59" Count="50" StOffset="0" SubTitle="転校生、穂村 尊" Title="遊☆戯☆王VRAINS" ProgComment=""/>
+<ProgItem PID="443449" TID="4592" StTime="20180502182500" EdTime="20180502185500" ChName="テレビ東京" ChID="7" Count="50" StOffset="0" SubTitle="転校生、穂村 尊" Title="遊☆戯☆王VRAINS" ProgComment=""/>
+<ProgItem PID="438778" TID="3777" StTime="20180502183000" EdTime="20180502190000" ChName="テレ玉" ChID="14" Count="13" StOffset="0" SubTitle="三人の科学者" Title="太陽の勇者ファイバード" ProgComment=""/>
+<ProgItem PID="446465" TID="520" StTime="20180502183000" EdTime="20180502190000" ChName="TOKYO MX2" ChID="187" Count="50" StOffset="0" SubTitle="引き裂かれた兄弟" Title="ブラック・ジャック" ProgComment=""/>
+<ProgItem PID="447713" TID="3383" StTime="20180502183000" EdTime="20180502190000" ChName="チバテレビ" ChID="13" Count="11" StOffset="0" SubTitle="獄門塾殺人事件 File.2" Title="金田一少年の事件簿R" ProgComment=""/>
+<ProgItem PID="443818" TID="4903" StTime="20180502184500" EdTime="20180502185500" ChName="NHK Eテレ" ChID="2" Count="1" StOffset="0" SubTitle="やさしさは力なり、西郷隆盛！～どんどん出世編～" Title="ねこねこ日本史(第3シリーズ)" ProgComment=""/>
+<ProgItem PID="441993" TID="625" StTime="20180502190000" EdTime="20180502192500" ChName="AT-X" ChID="20" Count="7" StOffset="0" SubTitle="探さないでよっ!!" Title="あまえないでよっ!!" ProgComment=""/>
+<ProgItem PID="448430" TID="4189" StTime="20180502190000" EdTime="20180502193000" ChName="東映チャンネル" ChID="39" Count="19" StOffset="0" SubTitle="ロボット発進不能" Title="宇宙大帝ゴッドシグマ" ProgComment=""/>
+<ProgItem PID="440016" TID="4790" StTime="20180502192500" EdTime="20180502195000" ChName="NHK Eテレ" ChID="2" Count="5" StOffset="0" SubTitle="さくらとお花見ひっぱりだこ" Title="カードキャプターさくら クリアカード編" ProgComment=""/>
+<ProgItem PID="440860" TID="3574" StTime="20180502193000" EdTime="20180502200000" ChName="群馬テレビ" ChID="72" Count="47" StOffset="0" SubTitle="女王陛下のズッコケ警部" Title="ルパン三世 2nd series" ProgComment=""/>
+<ProgItem PID="441149" TID="4064" StTime="20180502193000" EdTime="20180502195800" ChName="TOKYO MX" ChID="19" Count="27" StOffset="0" SubTitle="Let&#039;sエンジョイ！魔法学校の夏休み！" Title="魔法つかいプリキュア！" ProgComment=""/>
+<ProgItem PID="441994" TID="625" StTime="20180502193000" EdTime="20180502195500" ChName="AT-X" ChID="20" Count="8" StOffset="0" SubTitle="告白(コク)らないでよっ!!" Title="あまえないでよっ!!" ProgComment=""/>
+<ProgItem PID="445426" TID="3569" StTime="20180502193000" EdTime="20180502200000" ChName="超!A&amp;G+" ChID="156" Count="187" StOffset="0" SubTitle="" Title="楠田亜衣奈・渡部優衣の気分上等↑↑" ProgComment=""/>
+<ProgItem PID="448431" TID="4189" StTime="20180502193000" EdTime="20180502200000" ChName="東映チャンネル" ChID="39" Count="20" StOffset="0" SubTitle="ジュリィの秘密" Title="宇宙大帝ゴッドシグマ" ProgComment=""/>
+<ProgItem PID="449417" TID="1508" StTime="20180502193000" EdTime="20180502200000" ChName="キッズステーション" ChID="22" Count="63" StOffset="0" SubTitle="終わりなき脅威！" Title="イナズマイレブン" ProgComment=""/>
+<ProgItem PID="445154" TID="3752" StTime="20180502200000" EdTime="20180502210000" ChName="超!A&amp;G+" ChID="156" Count="161" StOffset="0" SubTitle="" Title="A&amp;G NEXT BREAKS FIVE STARS" ProgComment="パーソナリティ：田中美海"/>
+<ProgItem PID="447849" TID="2943" StTime="20180502200000" EdTime="20180502203000" ChName="AT-X" ChID="20" Count="4" StOffset="0" SubTitle="いいんちょう" Title="ゆゆ式" ProgComment=""/>
+<ProgItem PID="449418" TID="1508" StTime="20180502200000" EdTime="20180502203000" ChName="キッズステーション" ChID="22" Count="64" StOffset="0" SubTitle="激突！雷門VS雷門!!" Title="イナズマイレブン" ProgComment=""/>
+<ProgItem PID="448452" TID="4826" StTime="20180502203000" EdTime="20180502210000" ChName="キッズステーション" ChID="22" Count="76" StOffset="0" SubTitle="みんな集合！せーのでバイチャ!!" Title="ドクタースランプ" ProgComment=""/>
+<ProgItem PID="444708" TID="4455" StTime="20180502210000" EdTime="20180502213000" ChName="超!A&amp;G+" ChID="156" Count="70" StOffset="0" SubTitle="" Title="内田雄馬 君の話を焼かせて" ProgComment=""/>
+<ProgItem PID="446675" TID="1487" StTime="20180502210000" EdTime="20180502220000" ChName="AT-X" ChID="20" Count="" StOffset="0" SubTitle="#9～#10" Title="とある魔術の禁書目録" ProgComment=""/>
+<ProgItem PID="444989" TID="4912" StTime="20180502220000" EdTime="20180502222500" ChName="TOKYO MX" ChID="19" Count="4" StOffset="0" SubTitle="天丼サバイバー／ハプニングにゃー" Title="鹿楓堂よついろ日和" ProgComment=""/>
+<ProgItem PID="447561" TID="2144" StTime="20180502220000" EdTime="20180502223000" ChName="キッズステーション" ChID="22" Count="13" StOffset="0" SubTitle="ピクシーガーデン" Title="SKET DANCE" ProgComment=""/>
+<ProgItem PID="448555" TID="4939" StTime="20180502220000" EdTime="20180502231500" ChName="みんなのアニメ" ChID="241" Count="3" StOffset="0" SubTitle="暁の蜂起" Title="機動戦士ガンダム THE ORIGIN" ProgComment="http://abema.tv/channels/everybody-anime/slots/EoLURUQG1pn1N7"/>
+<ProgItem PID="441350" TID="4865" StTime="20180502222500" EdTime="20180502223000" ChName="TOKYO MX" ChID="19" Count="5" StOffset="0" SubTitle="みんなで温泉旅行!?" Title="ありすorありす" ProgComment=""/>
+<ProgItem PID="439815" TID="56" StTime="20180502223000" EdTime="20180502230000" ChName="キッズステーション" ChID="22" Count="38" StOffset="0" SubTitle="二人の新人王" Title="はじめの一歩" ProgComment=""/>
+<ProgItem PID="441213" TID="4854" StTime="20180502223000" EdTime="20180502230000" ChName="AT-X" ChID="20" Count="4" StOffset="0" SubTitle="後継者と転校生" Title="魔法少女サイト" ProgComment=""/>
+<ProgItem PID="439733" TID="4793" StTime="20180502230000" EdTime="20180502233000" ChName="AT-X" ChID="20" Count="9" StOffset="0" SubTitle="その9" Title="学園ベビーシッターズ" ProgComment=""/>
+<ProgItem PID="441467" TID="4868" StTime="20180502230000" EdTime="20180502233000" ChName="とちぎテレビ" ChID="100" Count="3" StOffset="0" SubTitle="双対福音のプロトコル" Title="シュタインズ・ゲート ゼロ" ProgComment=""/>
+<ProgItem PID="446850" TID="4912" StTime="20180502230000" EdTime="20180502232700" ChName="KBS京都" ChID="66" Count="4" StOffset="0" SubTitle="天丼サバイバー／ハプニングにゃー" Title="鹿楓堂よついろ日和" ProgComment=""/>
+<ProgItem PID="441570" TID="4870" StTime="20180502233000" EdTime="20180503000000" ChName="TOKYO MX" ChID="19" Count="5" StOffset="0" SubTitle="頭上の敵" Title="重神機パンドーラ" ProgComment=""/>
+<ProgItem PID="443846" TID="2271" StTime="20180502233000" EdTime="20180503000000" ChName="BS日テレ" ChID="71" Count="19" StOffset="0" SubTitle="ながらへば" Title="ちはやふる" ProgComment=""/>
+<ProgItem PID="446663" TID="4890" StTime="20180502233000" EdTime="20180503000000" ChName="AT-X" ChID="20" Count="5" StOffset="0" SubTitle="あやかしとの約束を忘れてはならぬ。" Title="かくりよの宿飯" ProgComment=""/>
+<ProgItem PID="440682" TID="4857" StTime="20180503000000" EdTime="20180503003000" ChName="BS11イレブン" ChID="128" Count="4" StOffset="0" SubTitle="life.03 英雄さまご一行です" Title="ハイスクールD×D HERO" ProgComment=""/>
+<ProgItem PID="440694" TID="4858" StTime="20180503000000" EdTime="20180503003000" ChName="TOKYO MX" ChID="19" Count="4" StOffset="0" SubTitle="おゼル持ち" Title="ラストピリオド -終わりなき螺旋の物語-" ProgComment=""/>
+<ProgItem PID="441299" TID="4866" StTime="20180503000000" EdTime="20180503003000" ChName="BSフジ" ChID="17" Count="4" StOffset="0" SubTitle="堕ち行く歌" Title="LOST SONG" ProgComment=""/>
+<ProgItem PID="443985" TID="4145" StTime="20180503000000" EdTime="20180503010000" ChName="超!A&amp;G+" ChID="156" Count="" StOffset="0" SubTitle="" Title="鷲崎健のヨルナイト×ヨルナイト" ProgComment=""/>
+<ProgItem PID="448242" TID="4770" StTime="20180503000000" EdTime="20180503003000" ChName="AT-X" ChID="20" Count="13" StOffset="0" SubTitle="The Prayer Within" Title="BEATLESS" ProgComment=""/>
+<ProgItem PID="448565" TID="3788" StTime="20180503000000" EdTime="20180503003000" ChName="キッズステーション" ChID="22" Count="21" StOffset="0" SubTitle="金欠部長コスイネン" Title="タイムボカンシリーズ 逆転イッパツマン" ProgComment=""/>
+<ProgItem PID="448699" TID="3548" StTime="20180503000000" EdTime="20180503060000" ChName="アニマックス" ChID="21" Count="" StOffset="0" SubTitle="#1～#13" Title="ガンダム Gのレコンギスタ" ProgComment="一挙放送"/>
+<ProgItem PID="443769" TID="1414" StTime="20180503003000" EdTime="20180503005900" ChName="BSテレ東" ChID="15" Count="8" StOffset="0" SubTitle="儚い光" Title="夏目友人帳" ProgComment="アニメ化10周年記念「夏目友人帳」シリーズセレクション"/>
+<ProgItem PID="444010" TID="3416" StTime="20180503003000" EdTime="20180503010000" ChName="TOKYO MX" ChID="19" Count="17" StOffset="0" SubTitle="エクスキャリバー" Title="ソードアート・オンラインII" ProgComment=""/>
+<ProgItem PID="444021" TID="3416" StTime="20180503003000" EdTime="20180503010000" ChName="BS11イレブン" ChID="128" Count="17" StOffset="0" SubTitle="エクスキャリバー" Title="ソードアート・オンラインII" ProgComment=""/>
+<ProgItem PID="444721" TID="4154" StTime="20180503003000" EdTime="20180503010000" ChName="ラジオ関西(558)" ChID="133" Count="109" StOffset="0" SubTitle="" Title="松田的超英雄電波" ProgComment=""/>
+<ProgItem PID="448185" TID="3416" StTime="20180503003000" EdTime="20180503010000" ChName="群馬テレビ" ChID="72" Count="17" StOffset="0" SubTitle="エクスキャリバー" Title="ソードアート・オンラインII" ProgComment=""/>
+<ProgItem PID="448254" TID="4882" StTime="20180503003000" EdTime="20180503010000" ChName="AT-X" ChID="20" Count="3" StOffset="0" SubTitle="すれ違う思い" Title="Butlers～千年百年物語～" ProgComment=""/>
+<ProgItem PID="448566" TID="3788" StTime="20180503003000" EdTime="20180503010000" ChName="キッズステーション" ChID="22" Count="22" StOffset="0" SubTitle="魔法責めイッパツマン！" Title="タイムボカンシリーズ 逆転イッパツマン" ProgComment=""/>
+<ProgItem PID="444965" TID="4911" StTime="20180503010000" EdTime="20180503013000" ChName="BS11イレブン" ChID="128" Count="4" StOffset="0" SubTitle="無垢の美しさ" Title="Cutie Honey Universe" ProgComment=""/>
+<ProgItem PID="442379" TID="4882" StTime="20180503010500" EdTime="20180503013500" ChName="TOKYO MX" ChID="19" Count="4" StOffset="0" SubTitle="華麗なる対決" Title="Butlers～千年百年物語～" ProgComment=""/>
+<ProgItem PID="447837" TID="4882" StTime="20180503010500" EdTime="20180503013500" ChName="KBS京都" ChID="66" Count="4" StOffset="0" SubTitle="華麗なる対決" Title="Butlers～千年百年物語～" ProgComment=""/>
+<ProgItem PID="447078" TID="4781" StTime="20180503012500" EdTime="20180503015500" ChName="中国放送" ChID="102" Count="4" StOffset="0" SubTitle="掃除当番／逆上がり／風邪／尾行" Title="からかい上手の高木さん" ProgComment=""/>
+<ProgItem PID="442160" TID="4882" StTime="20180503013000" EdTime="20180503020000" ChName="サンテレビジョン" ChID="58" Count="4" StOffset="0" SubTitle="華麗なる対決" Title="Butlers～千年百年物語～" ProgComment="!野球中継、中止のため、定刻放送"/>
+<ProgItem PID="441387" TID="4868" StTime="20180503013500" EdTime="20180503020500" ChName="TOKYO MX" ChID="19" Count="4" StOffset="0" SubTitle="亡失流転のソリチュード" Title="シュタインズ・ゲート ゼロ" ProgComment=""/>
+<ProgItem PID="444367" TID="4868" StTime="20180503013500" EdTime="20180503020500" ChName="KBS京都" ChID="66" Count="4" StOffset="0" SubTitle="亡失流転のソリチュード" Title="シュタインズ・ゲート ゼロ" ProgComment=""/>
+<ProgItem PID="446639" TID="4899" StTime="20180503013500" EdTime="20180503020500" ChName="テレビ北海道" ChID="90" Count="5" StOffset="0" SubTitle="対抗戦へ向けて" Title="キャプテン翼(2018)" ProgComment=""/>
+<ProgItem PID="441456" TID="4868" StTime="20180503020000" EdTime="20180503023000" ChName="サンテレビジョン" ChID="58" Count="4" StOffset="0" SubTitle="亡失流転のソリチュード" Title="シュタインズ・ゲート ゼロ" ProgComment="!野球中継、中止のため、定刻放送"/>
+<ProgItem PID="442006" TID="869" StTime="20180503020500" EdTime="20180503023500" ChName="TOKYO MX" ChID="19" Count="5" StOffset="0" SubTitle="小児科病棟" Title="妖怪人間ベム(2006)" ProgComment=""/>
+<ProgItem PID="442427" TID="4882" StTime="20180503020500" EdTime="20180503023500" ChName="テレビ愛知" ChID="59" Count="4" StOffset="0" SubTitle="華麗なる対決" Title="Butlers～千年百年物語～" ProgComment=""/>
+<ProgItem PID="440843" TID="4858" StTime="20180503021500" EdTime="20180503024500" ChName="ABCテレビ" ChID="67" Count="4" StOffset="0" SubTitle="おゼル持ち" Title="ラストピリオド -終わりなき螺旋の物語-" ProgComment=""/>
+<ProgItem PID="441422" TID="4868" StTime="20180503023500" EdTime="20180503030500" ChName="テレビ愛知" ChID="59" Count="4" StOffset="0" SubTitle="亡失流転のソリチュード" Title="シュタインズ・ゲート ゼロ" ProgComment=""/>
+<ProgItem PID="440138" TID="4784" StTime="20180503024500" EdTime="20180503031500" ChName="ABCテレビ" ChID="67" Count="16" StOffset="0" SubTitle="前哨" Title="グランクレスト戦記" ProgComment=""/>
+<ProgItem PID="447587" TID="322" StTime="20180503030000" EdTime="20180503033000" ChName="キッズステーション" ChID="22" Count="26" StOffset="0" SubTitle="さよならメップルミップル!?やだー！" Title="ふたりはプリキュア" ProgComment=""/>
+<ProgItem PID="442053" TID="3391" StTime="20180503030500" EdTime="20180503033500" ChName="テレビ愛知" ChID="59" Count="216" StOffset="0" SubTitle="" Title="あにむす！" ProgComment=""/>
+<ProgItem PID="442742" TID="4888" StTime="20180503031000" EdTime="20180503034000" ChName="テレビ大阪" ChID="28" Count="4" StOffset="0" SubTitle="素晴らしきかなHAPPY" Title="美男高校地球防衛部HAPPY KISS!" ProgComment=""/>
+</ProgItems>
+</syobocal>

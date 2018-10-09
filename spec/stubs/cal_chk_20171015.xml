@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syobocal url="http://cal.syoboi.jp/" version="" LastUpdate="20181010004220" SPID="nikeno" SPNAME="しょぼいカレンダー">
+<ProgItems>
+<ProgItem PID="427797" TID="2898" StTime="20171015041000" EdTime="20171015051500" ChName="WOWOWプライム" ChID="204" Count="5" StOffset="0" SubTitle="愛シキモノタチヘ" Title="コードギアス 亡国のアキト" ProgComment=""/>
+<ProgItem PID="427688" TID="4487" StTime="20171015050000" EdTime="20171015060000" ChName="キッズステーション" ChID="22" Count="14" StOffset="0" SubTitle="ワイルド7／宇宙エース#52／昭和へタイムスリップ" Title="甦る昭和のテレビヒーロー" ProgComment=""/>
+<ProgItem PID="426156" TID="4560" StTime="20171015063000" EdTime="20171015070000" ChName="テレビ愛知" ChID="59" Count="32" StOffset="0" SubTitle="七つの星／あざらしの皮" Title="まんが世界昔ばなし" ProgComment=""/>
+<ProgItem PID="423555" TID="4389" StTime="20171015070000" EdTime="20171015073000" ChName="BSテレ東" ChID="15" Count="30" StOffset="0" SubTitle="リーリエ、ピカチュウをかわいがってあげてね" Title="ポケットモンスター サン＆ムーン" ProgComment=""/>
+<ProgItem PID="427507" TID="4742" StTime="20171015070000" EdTime="20171015073000" ChName="テレビ愛知" ChID="59" Count="3" StOffset="0" SubTitle="とめろ！ナダカーンの野望" Title="レゴ ニンジャゴー(5)" ProgComment=""/>
+<ProgItem PID="423364" TID="3776" StTime="20171015070500" EdTime="20171015071500" ChName="NHK Eテレ" ChID="2" Count="44" StOffset="0" SubTitle="わしものアップデート" Title="わしも-wasimo-(第3シリーズ)" ProgComment=""/>
+<ProgItem PID="420699" TID="3687" StTime="20171015073000" EdTime="20171015075500" ChName="NHK BSプレミアム" ChID="179" Count="3" StOffset="0" SubTitle="はじめてアンサンブル" Title="響け！ユーフォニアム" ProgComment=""/>
+<ProgItem PID="423368" TID="4408" StTime="20171015075500" EdTime="20171015080000" ChName="NHK BSプレミアム" ChID="179" Count="8" StOffset="0" SubTitle="がんがんがが～ん！おこづかいがない!?" Title="がん がん がんこちゃん" ProgComment=""/>
+<ProgItem PID="419272" TID="4461" StTime="20171015083000" EdTime="20171015090000" ChName="ABCテレビ" ChID="67" Count="36" StOffset="0" SubTitle="いちかとあきら！いちご坂大運動会！" Title="キラキラ☆プリキュアアラモード" ProgComment=""/>
+<ProgItem PID="420008" TID="4461" StTime="20171015083000" EdTime="20171015090000" ChName="テレビ朝日" ChID="6" Count="36" StOffset="0" SubTitle="いちかとあきら！いちご坂大運動会！" Title="キラキラ☆プリキュアアラモード" ProgComment=""/>
+<ProgItem PID="420361" TID="4461" StTime="20171015083000" EdTime="20171015090000" ChName="メ～テレ" ChID="81" Count="36" StOffset="0" SubTitle="いちかとあきら！いちご坂大運動会！" Title="キラキラ☆プリキュアアラモード" ProgComment=""/>
+<ProgItem PID="423397" TID="4537" StTime="20171015083000" EdTime="20171015090000" ChName="テレビ愛知" ChID="59" Count="29" StOffset="0" SubTitle="「DG」の衝撃！正義と友ジョーと裁きの紋章！" Title="デュエル・マスターズ(2017)" ProgComment=""/>
+<ProgItem PID="423422" TID="4537" StTime="20171015083000" EdTime="20171015090000" ChName="テレビ東京" ChID="7" Count="29" StOffset="0" SubTitle="「DG」の衝撃！正義と友ジョーと裁きの紋章！" Title="デュエル・マスターズ(2017)" ProgComment=""/>
+<ProgItem PID="426466" TID="4336" StTime="20171015083000" EdTime="20171015090000" ChName="東海テレビ" ChID="77" Count="53" StOffset="0" SubTitle="がんばれ！ドスランポス" Title="モンスターハンター ストーリーズ RIDE ON" ProgComment=""/>
+<ProgItem PID="426517" TID="4336" StTime="20171015083000" EdTime="20171015090000" ChName="フジテレビ" ChID="3" Count="53" StOffset="0" SubTitle="がんばれ！ドスランポス" Title="モンスターハンター ストーリーズ RIDE ON" ProgComment=""/>
+<ProgItem PID="420667" TID="4673" StTime="20171015090000" EdTime="20171015093000" ChName="テレビ朝日" ChID="6" Count="7" StOffset="0" SubTitle="悪魔のサイエンティスト" Title="仮面ライダービルド" ProgComment=""/>
+<ProgItem PID="420863" TID="4673" StTime="20171015090000" EdTime="20171015093000" ChName="メ～テレ" ChID="81" Count="7" StOffset="0" SubTitle="悪魔のサイエンティスト" Title="仮面ライダービルド" ProgComment=""/>
+<ProgItem PID="423385" TID="4538" StTime="20171015090000" EdTime="20171015093000" ChName="テレビ愛知" ChID="59" Count="28" StOffset="0" SubTitle="びっきのよめさん／近江商人" Title="ふるさとめぐり 日本の昔ばなし" ProgComment=""/>
+<ProgItem PID="423448" TID="4538" StTime="20171015090000" EdTime="20171015093000" ChName="テレビ東京" ChID="7" Count="28" StOffset="0" SubTitle="びっきのよめさん／近江商人" Title="ふるさとめぐり 日本の昔ばなし" ProgComment=""/>
+<ProgItem PID="423651" TID="4673" StTime="20171015090000" EdTime="20171015093000" ChName="ABCテレビ" ChID="67" Count="7" StOffset="0" SubTitle="悪魔のサイエンティスト" Title="仮面ライダービルド" ProgComment=""/>
+<ProgItem PID="423676" TID="3830" StTime="20171015090000" EdTime="20171015093000" ChName="フジテレビ" ChID="3" Count="111" StOffset="0" SubTitle="異次元の極致バトル！ヒットVSジレン!!" Title="ドラゴンボール超" ProgComment=""/>
+<ProgItem PID="427855" TID="3830" StTime="20171015090000" EdTime="20171015093000" ChName="東海テレビ" ChID="77" Count="111" StOffset="0" SubTitle="異次元の極致バトル！ヒットVSジレン!!" Title="ドラゴンボール超" ProgComment=""/>
+<ProgItem PID="429248" TID="3830" StTime="20171015090000" EdTime="20171015093000" ChName="関西テレビ" ChID="70" Count="111" StOffset="0" SubTitle="異次元の極致バトル！ヒットVSジレン!!" Title="ドラゴンボール超" ProgComment=""/>
+<ProgItem PID="418599" TID="350" StTime="20171015093000" EdTime="20171015100000" ChName="関西テレビ" ChID="70" Count="809" StOffset="0" SubTitle="復讐の嵐 怒りの軍団襲来！" Title="ワンピース" ProgComment=""/>
+<ProgItem PID="420373" TID="4478" StTime="20171015093000" EdTime="20171015100000" ChName="メ～テレ" ChID="81" Count="34" StOffset="0" SubTitle="謎の覆面戦士、現る" Title="宇宙戦隊キュウレンジャー" ProgComment=""/>
+<ProgItem PID="420415" TID="4478" StTime="20171015093000" EdTime="20171015100000" ChName="テレビ朝日" ChID="6" Count="34" StOffset="0" SubTitle="謎の覆面戦士、現る" Title="宇宙戦隊キュウレンジャー" ProgComment=""/>
+<ProgItem PID="423638" TID="4478" StTime="20171015093000" EdTime="20171015100000" ChName="ABCテレビ" ChID="67" Count="34" StOffset="0" SubTitle="謎の覆面戦士、現る" Title="宇宙戦隊キュウレンジャー" ProgComment=""/>
+<ProgItem PID="423665" TID="350" StTime="20171015093000" EdTime="20171015100000" ChName="フジテレビ" ChID="3" Count="809" StOffset="0" SubTitle="復讐の嵐 怒りの軍団襲来！" Title="ワンピース" ProgComment=""/>
+<ProgItem PID="423699" TID="350" StTime="20171015093000" EdTime="20171015100000" ChName="東海テレビ" ChID="77" Count="809" StOffset="0" SubTitle="復讐の嵐 怒りの軍団襲来！" Title="ワンピース" ProgComment=""/>
+<ProgItem PID="423313" TID="1062" StTime="20171015100000" EdTime="20171015103000" ChName="BSフジ" ChID="17" Count="196" StOffset="0" SubTitle="あの世一はオラだ!!歴代の勇者大集合" Title="ドラゴンボールZ" ProgComment=""/>
+<ProgItem PID="427510" TID="4743" StTime="20171015100000" EdTime="20171015103000" ChName="BSテレ東" ChID="15" Count="2" StOffset="0" SubTitle="使徒からの挑戦状" Title="カードファイト!! ヴァンガードG Z" ProgComment=""/>
+<ProgItem PID="427522" TID="4743" StTime="20171015100000" EdTime="20171015103000" ChName="テレビ愛知" ChID="59" Count="2" StOffset="0" SubTitle="使徒からの挑戦状" Title="カードファイト!! ヴァンガードG Z" ProgComment=""/>
+<ProgItem PID="427757" TID="4743" StTime="20171015100000" EdTime="20171015103000" ChName="テレビ東京" ChID="7" Count="2" StOffset="0" SubTitle="使徒からの挑戦状" Title="カードファイト!! ヴァンガードG Z" ProgComment=""/>
+<ProgItem PID="423324" TID="350" StTime="20171015103000" EdTime="20171015110000" ChName="BSフジ" ChID="17" Count="552" StOffset="0" SubTitle="衝撃の告白 オトヒメ暗殺の真実" Title="ワンピース" ProgComment=""/>
+<ProgItem PID="423409" TID="4532" StTime="20171015103000" EdTime="20171015110000" ChName="テレビ愛知" ChID="59" Count="29" StOffset="0" SubTitle="ヒカリ、山ガールで大ピンチ！" Title="アイドル×戦士 ミラクルちゅーんず！" ProgComment=""/>
+<ProgItem PID="423435" TID="4532" StTime="20171015103000" EdTime="20171015110000" ChName="テレビ東京" ChID="7" Count="29" StOffset="0" SubTitle="ヒカリ、山ガールで大ピンチ！" Title="アイドル×戦士 ミラクルちゅーんず！" ProgComment=""/>
+<ProgItem PID="423485" TID="3542" StTime="20171015103000" EdTime="20171015110000" ChName="TOKYO MX" ChID="19" Count="15" StOffset="0" SubTitle="アンホーリィ・ナイト" Title="七つの大罪" ProgComment=""/>
+<ProgItem PID="423182" TID="3689" StTime="20171015110000" EdTime="20171015113000" ChName="TOKYO MX" ChID="19" Count="3" StOffset="0" SubTitle="亥突猛心" Title="えとたま" ProgComment=""/>
+<ProgItem PID="423884" TID="4568" StTime="20171015110000" EdTime="20171015130000" ChName="文化放送(1134)" ChID="41" Count="28" StOffset="0" SubTitle="ゲスト：TRUE(唐沢美帆)" Title="A&amp;G リクエストアワー 阿澄佳奈のキミまち！" ProgComment=""/>
+<ProgItem PID="423897" TID="4568" StTime="20171015110000" EdTime="20171015130000" ChName="超!A&amp;G+" ChID="156" Count="28" StOffset="0" SubTitle="ゲスト：TRUE(唐沢美帆)" Title="A&amp;G リクエストアワー 阿澄佳奈のキミまち！" ProgComment=""/>
+<ProgItem PID="423463" TID="2615" StTime="20171015111000" EdTime="20171015112500" ChName="テレビ愛知" ChID="59" Count="" StOffset="0" SubTitle="#19～#20" Title="げんきげんきノンタン" ProgComment=""/>
+<ProgItem PID="423497" TID="4318" StTime="20171015113000" EdTime="20171015115900" ChName="TOKYO MX" ChID="19" Count="3" StOffset="0" SubTitle="新しい世界" Title="ろんぐらいだぁす！" ProgComment=""/>
+<ProgItem PID="427457" TID="4691" StTime="20171015120000" EdTime="20171015120500" ChName="ニコニコチャンネル" ChID="165" Count="2" StOffset="0" SubTitle="" Title="あめこん!!" ProgComment=""/>
+<ProgItem PID="427547" TID="4715" StTime="20171015120000" EdTime="20171015122500" ChName="バンダイチャンネル" ChID="107" Count="2" StOffset="0" SubTitle="マイリトルブラザー" Title="クラシカロイド(第2シリーズ)" ProgComment=""/>
+<ProgItem PID="420260" TID="3666" StTime="20171015123000" EdTime="20171015130000" ChName="テレ玉" ChID="14" Count="35" StOffset="0" SubTitle="キンジ、妖怪への迷路！" Title="手裏剣戦隊ニンニンジャー" ProgComment=""/>
+<ProgItem PID="418283" TID="3930" StTime="20171015130000" EdTime="20171015133000" ChName="テレ玉" ChID="14" Count="25" StOffset="0" SubTitle="異変！赤い空！" Title="仮面ライダーゴースト" ProgComment=""/>
+<ProgItem PID="426913" TID="3591" StTime="20171015133000" EdTime="20171015140000" ChName="TOKYO MX2" ChID="187" Count="1" StOffset="0" SubTitle="セブンが死ぬ時！東京は沈没する！" Title="ウルトラマンレオ" ProgComment="!10/22は放送休止"/>
+<ProgItem PID="428238" TID="4747" StTime="20171015133000" EdTime="20171015145000" ChName="東映チャンネル" ChID="39" Count="" StOffset="0" SubTitle="" Title="映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！" ProgComment="本編72分"/>
+<ProgItem PID="423192" TID="4670" StTime="20171015134500" EdTime="20171015141500" ChName="AT-X" ChID="20" Count="" StOffset="0" SubTitle="^天才！カラーズTV" Title="三ツ星カラーズ" ProgComment="#5 通常版"/>
+<ProgItem PID="423193" TID="4670" StTime="20171015141500" EdTime="20171015143000" ChName="AT-X" ChID="20" Count="" StOffset="0" SubTitle="^天才！カラーズTV" Title="三ツ星カラーズ" ProgComment="#5 特別版"/>
+<ProgItem PID="421442" TID="4336" StTime="20171015143000" EdTime="20171015150000" ChName="アニマックス" ChID="21" Count="39" StOffset="0" SubTitle="試練！蜃気楼の塔へ" Title="モンスターハンター ストーリーズ RIDE ON" ProgComment=""/>
+<ProgItem PID="428077" TID="4468" StTime="20171015170000" EdTime="20171015183000" ChName="新作TVアニメ" ChID="225" Count="" StOffset="0" SubTitle="^アニメ グランブルーファンタジー スペシャルイベント「騎空士総会」" Title="GRANBLUE FANTASY The Animation" ProgComment="http://abema.tv/channels/new-anime/slots/8JWAXf5mmtcKL3"/>
+<ProgItem PID="419836" TID="4497" StTime="20171015173000" EdTime="20171015180000" ChName="キッズステーション" ChID="22" Count="20" StOffset="0" SubTitle="ダム決壊を食い止めろ!!" Title="トミカハイパーレスキュー ドライブヘッド 機動救急警察" ProgComment=""/>
+<ProgItem PID="422343" TID="3707" StTime="20171015180000" EdTime="20171015180500" ChName="Dlife" ChID="212" Count="4" StOffset="0" SubTitle="ティガーツム、大空へ" Title="ツムツム" ProgComment=""/>
+<ProgItem PID="423529" TID="1169" StTime="20171015180000" EdTime="20171015183000" ChName="フジテレビ" ChID="3" Count="1122" StOffset="0" SubTitle="" Title="ちびまる子ちゃん" ProgComment=""/>
+<ProgItem PID="427092" TID="1213" StTime="20171015180000" EdTime="20171015235500" ChName="キッズステーション" ChID="22" Count="" StOffset="0" SubTitle="#13～#25" Title="機動戦士ガンダム00" ProgComment="一挙放送"/>
+<ProgItem PID="423541" TID="1168" StTime="20171015183000" EdTime="20171015190000" ChName="フジテレビ" ChID="3" Count="2418" StOffset="0" SubTitle="" Title="サザエさん" ProgComment=""/>
+<ProgItem PID="426493" TID="4249" StTime="20171015183000" EdTime="20171015183500" ChName="群馬テレビ" ChID="72" Count="3" StOffset="0" SubTitle="ばなにゃ、てれびにゃ" Title="ばなにゃ" ProgComment="!10/24は放送休止"/>
+<ProgItem PID="423342" TID="962" StTime="20171015190000" EdTime="20171015193000" ChName="BS11イレブン" ChID="128" Count="5" StOffset="0" SubTitle="皇女 と 魔女" Title="コードギアス 反逆のルルーシュ" ProgComment=""/>
+<ProgItem PID="423343" TID="962" StTime="20171015193000" EdTime="20171015200000" ChName="BS11イレブン" ChID="128" Count="6" StOffset="0" SubTitle="奪われた 仮面" Title="コードギアス 反逆のルルーシュ" ProgComment=""/>
+<ProgItem PID="428230" TID="4566" StTime="20171015200500" EdTime="20171015205500" ChName="NHKラジオ第一" ChID="49" Count="26" StOffset="0" SubTitle="" Title="パワーボイスA" ProgComment="!次回は11/05 20:05～"/>
+<ProgItem PID="427877" TID="4697" StTime="20171015210000" EdTime="20171015213000" ChName="AT-X" ChID="20" Count="2" StOffset="0" SubTitle="One today is worth two tomorrows." Title="魔法使いの嫁" ProgComment=""/>
+<ProgItem PID="423910" TID="4410" StTime="20171015213000" EdTime="20171015220000" ChName="文化放送(1134)" ChID="41" Count="41" StOffset="0" SubTitle="" Title="Fate/Grand Order カルデア・ラジオ局" ProgComment=""/>
+<ProgItem PID="426479" TID="1780" StTime="20171015213000" EdTime="20171015220000" ChName="超!A&amp;G+" ChID="156" Count="419" StOffset="0" SubTitle="" Title="丹下桜のRADIO・A・La・Mode" ProgComment=""/>
+<ProgItem PID="423936" TID="4335" StTime="20171015220000" EdTime="20171015223000" ChName="文化放送(1134)" ChID="41" Count="55" StOffset="0" SubTitle="" Title="水瀬いのり MELODY FLAG" ProgComment=""/>
+<ProgItem PID="424134" TID="4713" StTime="20171015220000" EdTime="20171015223000" ChName="TOKYO MX" ChID="19" Count="2" StOffset="0" SubTitle="ツドエ、アニメガタリズ" Title="アニメガタリズ" ProgComment=""/>
+<ProgItem PID="423626" TID="4710" StTime="20171015221500" EdTime="20171015223000" ChName="KBS京都" ChID="66" Count="3" StOffset="0" SubTitle="グルメレポート大作戦!?" Title="ワールドフールニュース PARTII" ProgComment="!10/22は放送休止"/>
+<ProgItem PID="418785" TID="996" StTime="20171015223000" EdTime="20171015230000" ChName="tvk" ChID="8" Count="40" StOffset="0" SubTitle="セブン暗殺計画(後編)" Title="ウルトラセブン" ProgComment="!10/22は放送休止"/>
+<ProgItem PID="421223" TID="4678" StTime="20171015223000" EdTime="20171015230000" ChName="TOKYO MX" ChID="19" Count="2" StOffset="0" SubTitle="奇跡さえ起きればいい。" Title="妹さえいればいい。" ProgComment=""/>
+<ProgItem PID="423949" TID="3113" StTime="20171015223000" EdTime="20171015230000" ChName="文化放送(1134)" ChID="41" Count="236" StOffset="0" SubTitle="" Title="碧と彩奈のラ・プチミレディオ" ProgComment=""/>
+<ProgItem PID="419969" TID="881" StTime="20171015230000" EdTime="20171015233000" ChName="tvk" ChID="8" Count="11" StOffset="0" SubTitle="レオタード美女はチューリップがお好き" Title="シティーハンター" ProgComment="!10/22は放送休止"/>
+<ProgItem PID="422446" TID="4701" StTime="20171015230000" EdTime="20171015233000" ChName="TOKYO MX" ChID="19" Count="2" StOffset="0" SubTitle="鯨(ファレナ)の罪人たち" Title="クジラの子らは砂上に歌う" ProgComment=""/>
+<ProgItem PID="424272" TID="4678" StTime="20171015230000" EdTime="20171015233000" ChName="KBS京都" ChID="66" Count="2" StOffset="0" SubTitle="奇跡さえ起きればいい。" Title="妹さえいればいい。" ProgComment=""/>
+<ProgItem PID="414455" TID="4636" StTime="20171015232000" EdTime="20171015235000" ChName="ファミリー劇場" ChID="42" Count="11" StOffset="0" SubTitle="Q.なぜ答えるのか？" Title="ナナマルサンバツ" ProgComment=""/>
+<ProgItem PID="423509" TID="4602" StTime="20171015233000" EdTime="20171016000000" ChName="TOKYO MX" ChID="19" Count="15" StOffset="0" SubTitle="じゃじゃ馬ならし" Title="ボールルームへようこそ" ProgComment=""/>
+<ProgItem PID="423962" TID="1650" StTime="20171015233000" EdTime="20171016000000" ChName="文化放送(1134)" ChID="41" Count="811" StOffset="0" SubTitle="" Title="水樹奈々 スマイル・ギャング" ProgComment=""/>
+<ProgItem PID="424296" TID="4701" StTime="20171015233000" EdTime="20171016000000" ChName="KBS京都" ChID="66" Count="2" StOffset="0" SubTitle="鯨(ファレナ)の罪人たち" Title="クジラの子らは砂上に歌う" ProgComment=""/>
+<ProgItem PID="427975" TID="4705" StTime="20171015233000" EdTime="20171016000000" ChName="AT-X" ChID="20" Count="2" StOffset="0" SubTitle="うまるとアレックス" Title="干物妹！うまるちゃんR" ProgComment=""/>
+<ProgItem PID="428475" TID="3410" StTime="20171015233000" EdTime="20171016000000" ChName="超!A&amp;G+" ChID="156" Count="184" StOffset="0" SubTitle="" Title="天才軍師" ProgComment=""/>
+<ProgItem PID="422088" TID="4695" StTime="20171015235000" EdTime="20171016002000" ChName="ファミリー劇場" ChID="42" Count="1" StOffset="0" SubTitle="SWORD" Title="牙狼＜GARO＞ -VANISHING LINE-" ProgComment=""/>
+<ProgItem PID="422337" TID="4460" StTime="20171016000000" EdTime="20171016010000" ChName="アニマックス" ChID="21" Count="" StOffset="0" SubTitle="#21～#22" Title="ナンバカ(第2期)" ProgComment=""/>
+<ProgItem PID="422625" TID="4705" StTime="20171016000000" EdTime="20171016003000" ChName="TOKYO MX" ChID="19" Count="2" StOffset="0" SubTitle="うまるとアレックス" Title="干物妹！うまるちゃんR" ProgComment=""/>
+<ProgItem PID="422637" TID="4705" StTime="20171016000000" EdTime="20171016003000" ChName="BS11イレブン" ChID="128" Count="2" StOffset="0" SubTitle="うまるとアレックス" Title="干物妹！うまるちゃんR" ProgComment=""/>
+<ProgItem PID="424554" TID="4546" StTime="20171016000000" EdTime="20171016002500" ChName="バンダイチャンネル" ChID="107" Count="28" StOffset="0" SubTitle="宣戦布告" Title="BORUTO-ボルト- NARUTO NEXT GENERATIONS" ProgComment=""/>
+<ProgItem PID="426530" TID="3678" StTime="20171016000000" EdTime="20171016003000" ChName="チバテレビ" ChID="13" Count="2" StOffset="0" SubTitle="体操部とミュージカルで遊ぼう" Title="てさぐれ！部活もの すぴんおふ プルプルんシャルムと遊ぼう" ProgComment="!10/22、10/29は放送休止"/>
+<ProgItem PID="428190" TID="4717" StTime="20171016000000" EdTime="20171016002500" ChName="バンダイチャンネル" ChID="107" Count="1" StOffset="0" SubTitle="アスタとユノ" Title="ブラッククローバー" ProgComment=""/>
+<ProgItem PID="422935" TID="4708" StTime="20171016003000" EdTime="20171016010000" ChName="TOKYO MX" ChID="19" Count="2" StOffset="0" SubTitle="幻界病棟ライゼズ" Title="血界戦線 &amp; BEYOND" ProgComment=""/>
+<ProgItem PID="422947" TID="4708" StTime="20171016003000" EdTime="20171016010000" ChName="BS11イレブン" ChID="128" Count="2" StOffset="0" SubTitle="幻界病棟ライゼズ" Title="血界戦線 &amp; BEYOND" ProgComment=""/>
+<ProgItem PID="423975" TID="4649" StTime="20171016003000" EdTime="20171016010000" ChName="文化放送(1134)" ChID="41" Count="16" StOffset="0" SubTitle="" Title="小倉唯のyui＊room" ProgComment=""/>
+<ProgItem PID="421874" TID="4690" StTime="20171016010000" EdTime="20171016010500" ChName="TOKYO MX" ChID="19" Count="3" StOffset="0" SubTitle="二人きり、染まる頬と、突然の告白。" Title="お見合い相手は教え子、強気な、問題児。" ProgComment=""/>
+<ProgItem PID="423988" TID="4156" StTime="20171016010000" EdTime="20171016013000" ChName="文化放送(1134)" ChID="41" Count="" StOffset="0" SubTitle="" Title="～TRUEのおもてなしラジオ～ 鶴松屋へようこそ" ProgComment=""/>
+<ProgItem PID="425565" TID="4602" StTime="20171016010000" EdTime="20171016013000" ChName="BS11イレブン" ChID="128" Count="15" StOffset="0" SubTitle="じゃじゃ馬ならし" Title="ボールルームへようこそ" ProgComment=""/>
+<ProgItem PID="428140" TID="4725" StTime="20171016010000" EdTime="20171016013000" ChName="TBSチャンネル1" ChID="52" Count="1" StOffset="0" SubTitle="Spring rain" Title="DYNAMIC CHORD" ProgComment=""/>
+<ProgItem PID="420913" TID="3689" StTime="20171016010500" EdTime="20171016013500" ChName="テレビ愛知" ChID="59" Count="3" StOffset="0" SubTitle="亥突猛心" Title="えとたま" ProgComment=""/>
+<ProgItem PID="424014" TID="4144" StTime="20171016013000" EdTime="20171016020000" ChName="文化放送(1134)" ChID="41" Count="55" StOffset="0" SubTitle="" Title="日高里菜・大久保瑠美の「スクエニ 第10BD開発局」" ProgComment=""/>
+<ProgItem PID="424249" TID="4602" StTime="20171016013000" EdTime="20171016020000" ChName="群馬テレビ" ChID="72" Count="15" StOffset="0" SubTitle="じゃじゃ馬ならし" Title="ボールルームへようこそ" ProgComment=""/>
+<ProgItem PID="425633" TID="4724" StTime="20171016013000" EdTime="20171016020000" ChName="BS11イレブン" ChID="128" Count="2" StOffset="0" SubTitle="痕乱" Title="王様ゲーム The Animation" ProgComment=""/>
+<ProgItem PID="428128" TID="2709" StTime="20171016013000" EdTime="20171016020000" ChName="TBSチャンネル1" ChID="52" Count="1" StOffset="0" SubTitle="邂逅の…邪王真眼" Title="中二病でも恋がしたい！" ProgComment=""/>
+<ProgItem PID="422673" TID="4704" StTime="20171016013500" EdTime="20171016020500" ChName="TOKYO MX" ChID="19" Count="2" StOffset="0" SubTitle="ザ・ストロンゲスト・ストーカー" Title="Code:Realize ～創世の姫君～" ProgComment=""/>
+<ProgItem PID="425647" TID="4722" StTime="20171016013500" EdTime="20171016020500" ChName="テレビ愛知" ChID="59" Count="331" StOffset="0" SubTitle="一杯のラーメン" Title="銀魂. (ポロリ篇／銀ノ魂篇)" ProgComment=""/>
+<ProgItem PID="425708" TID="4722" StTime="20171016013500" EdTime="20171016020500" ChName="テレビ東京" ChID="7" Count="331" StOffset="0" SubTitle="一杯のラーメン" Title="銀魂. (ポロリ篇／銀ノ魂篇)" ProgComment=""/>
+<ProgItem PID="428093" TID="4722" StTime="20171016013500" EdTime="20171016020500" ChName="テレビ北海道" ChID="90" Count="331" StOffset="0" SubTitle="一杯のラーメン" Title="銀魂. (ポロリ篇／銀ノ魂篇)" ProgComment=""/>
+<ProgItem PID="422576" TID="4702" StTime="20171016015500" EdTime="20171016022500" ChName="関西テレビ" ChID="70" Count="2" StOffset="0" SubTitle="仁義なきスイーツ" Title="ブレンド・S" ProgComment=""/>
+<ProgItem PID="427924" TID="4721" StTime="20171016011500" EdTime="20171016014500" ChName="北海道文化放送" ChID="91" Count="1" StOffset="2400" SubTitle="犬屋敷壱郎" Title="いぬやしき" ProgComment="!10/22は放送休止"/>
+<ProgItem PID="421271" TID="4678" StTime="20171016003000" EdTime="20171016010000" ChName="サンテレビジョン" ChID="58" Count="2" StOffset="6900" SubTitle="奇跡さえ起きればいい。" Title="妹さえいればいい。" ProgComment="!野球中継延長のため繰り下げ"/>
+<ProgItem PID="422434" TID="4701" StTime="20171016010000" EdTime="20171016013000" ChName="サンテレビジョン" ChID="58" Count="2" StOffset="6900" SubTitle="鯨(ファレナ)の罪人たち" Title="クジラの子らは砂上に歌う" ProgComment="!野球中継延長のため繰り下げ"/>
+<ProgItem PID="426336" TID="3071" StTime="20171016030500" EdTime="20171016031000" ChName="テレビ東京" ChID="7" Count="2" StOffset="0" SubTitle="惨拝(ざんばい)" Title="闇芝居" ProgComment=""/>
+<ProgItem PID="426598" TID="4667" StTime="20171016042700" EdTime="20171016042800" ChName="関西テレビ" ChID="70" Count="12" StOffset="0" SubTitle="" Title="ユラユラすいぞくかん" ProgComment=""/>
+</ProgItems>
+</syobocal>
