@@ -4,25 +4,45 @@ describe ProgramWithFormat do # rubocop:disable RSpec/FilePath
       subject { program.format(ch_names) }
 
       let(:program) do
-        Syobocalite::Program.new(attrs)
+        Syobocalite::Program.new(
+          pid:          pid,
+          tid:          tid,
+          st_time:      st_time.in_time_zone,
+          ed_time:      ed_time.in_time_zone,
+          ch_name:      ch_name,
+          ch_id:        ch_id,
+          count:        count,
+          st_offset:    st_offset,
+          sub_title:    sub_title,
+          title:        title,
+          prog_comment: prog_comment,
+        )
       end
 
+      let(:pid)          { 0 }
+      let(:tid)          { 0 }
+      let(:st_time)      { "20170507083000" }
+      let(:ed_time)      { "20170507083000" }
+      let(:ch_name)      { "" }
+      let(:ch_id)        { 0 }
+      let(:count)        { 0 }
+      let(:st_offset)    { 0 }
+      let(:sub_title)    { "" }
+      let(:title)        { "" }
+      let(:prog_comment) { "" }
+
       context "has story_number and sub_title" do
-        let(:attrs) do
-          {
-            "PID"         => "409956",
-            "TID"         => "4461",
-            "StTime"      => "20170507083000",
-            "EdTime"      => "20170507090000",
-            "ChName"      => "テレビ朝日",
-            "ChID"        => "81",
-            "Count"       => "14",
-            "StOffset"    => "0",
-            "SubTitle"    => "お嬢さまロックンロール！",
-            "Title"       => "キラキラ☆プリキュアアラモード",
-            "ProgComment" => "",
-          }
-        end
+        let(:pid)          { 409956 }
+        let(:tid)          { 4461 }
+        let(:st_time)      { "20170507083000" }
+        let(:ed_time)      { "20170507083000" }
+        let(:ch_name)      { "テレビ朝日" }
+        let(:ch_id)        { 81 }
+        let(:count)        { 14 }
+        let(:st_offset)    { 0 }
+        let(:sub_title)    { "お嬢さまロックンロール！" }
+        let(:title)        { "キラキラ☆プリキュアアラモード" }
+        let(:prog_comment) { "" }
 
         let(:ch_names) { %w[テレビ朝日 ABCテレビ メ～テレ] }
 
@@ -38,21 +58,17 @@ describe ProgramWithFormat do # rubocop:disable RSpec/FilePath
       end
 
       context "no story_number and sub_title" do
-        let(:attrs) do
-          {
-            "PID"         => "428238",
-            "TID"         => "4747",
-            "StTime"      => "20171015133000",
-            "EdTime"      => "20171015145000",
-            "ChName"      => "東映チャンネル",
-            "ChID"        => "39",
-            "Count"       => "0",
-            "StOffset"    => "0",
-            "SubTitle"    => "",
-            "Title"       => "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！",
-            "ProgComment" => "",
-          }
-        end
+        let(:pid)          { 428238 }
+        let(:tid)          { 4747 }
+        let(:st_time)      { "20171015133000" }
+        let(:ed_time)      { "20171015145000" }
+        let(:ch_name)      { "東映チャンネル" }
+        let(:ch_id)        { 39 }
+        let(:count)        { 0 }
+        let(:st_offset)    { 0 }
+        let(:sub_title)    { "" }
+        let(:title)        { "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！" }
+        let(:prog_comment) { "" }
 
         let(:ch_names) { %w[東映チャンネル] }
 
@@ -67,21 +83,17 @@ describe ProgramWithFormat do # rubocop:disable RSpec/FilePath
       end
 
       context "has prog_comment" do
-        let(:attrs) do
-          {
-            "PID"         => "428238",
-            "TID"         => "4747",
-            "StTime"      => "20171015133000",
-            "EdTime"      => "20171015145000",
-            "ChName"      => "東映チャンネル",
-            "ChID"        => "39",
-            "Count"       => "0",
-            "StOffset"    => "0",
-            "SubTitle"    => "",
-            "Title"       => "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！",
-            "ProgComment" => "本編72分",
-          }
-        end
+        let(:pid)          { 428238 }
+        let(:tid)          { 4747 }
+        let(:st_time)      { "20171015133000" }
+        let(:ed_time)      { "20171015145000" }
+        let(:ch_name)      { "東映チャンネル" }
+        let(:ch_id)        { 39 }
+        let(:count)        { 0 }
+        let(:st_offset)    { 0 }
+        let(:sub_title)    { "" }
+        let(:title)        { "映画魔法つかいプリキュア！奇跡の変身！キュアモフルン！" }
+        let(:prog_comment) { "本編72分" }
 
         let(:ch_names) { %w[東映チャンネル] }
 
