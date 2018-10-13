@@ -54,30 +54,5 @@ describe ProgramManager do
         its(:ed_time)      { should be_instance_of ActiveSupport::TimeWithZone }
       end
     end
-
-    context "contains html entity" do
-      before do
-        stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=1&start=2018-05-02").
-          to_return(status: 200, body: read_stub("cal_chk_20180502.xml"))
-      end
-
-      let(:start_at) { Time.zone.parse("2018-05-02 19:30:00") }
-      let(:end_at)   { Time.zone.parse("2018-05-02 20:00:00") }
-      let(:squeeze)  { true }
-
-      describe "[0]" do
-        subject { programs[0] }
-
-        its(:ch_id)        { should eq 19 }
-        its(:ch_name)      { should eq "TOKYO MX" }
-        its(:title)        { should eq "魔法つかいプリキュア！" }
-        its(:sub_title)    { should eq "Let'sエンジョイ！魔法学校の夏休み！" }
-        its(:story_number) { should eq 27 }
-        its(:st_time)      { should eq "2018-05-02 19:30:00".in_time_zone }
-        its(:st_time)      { should be_instance_of ActiveSupport::TimeWithZone }
-        its(:ed_time)      { should eq "2018-05-02 19:58:00".in_time_zone }
-        its(:ed_time)      { should be_instance_of ActiveSupport::TimeWithZone }
-      end
-    end
   end
 end
