@@ -10,11 +10,11 @@ AllCops:
   # uncomment if use rails cops
   # TargetRailsVersion: 5.0
 
-Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: comma
+Lint/ScriptPermission:
+  Enabled: false
 
 Metrics/BlockLength:
   Max: 28
 
-Lint/ScriptPermission:
-  Enabled: false
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
