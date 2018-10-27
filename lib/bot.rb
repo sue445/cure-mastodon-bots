@@ -5,7 +5,7 @@ class Bot
     Time.zone = "Tokyo"
     @mastodon_client =
       ::Mastodon::REST::Client.new(
-        base_url: mastodon_url,
+        base_url:     mastodon_url,
         bearer_token: access_token,
       )
   end
