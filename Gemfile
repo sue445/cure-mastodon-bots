@@ -27,7 +27,6 @@ group :development do
 end
 
 group :test do
-  gem "codeclimate-test-reporter", ">= 1.0.8", require: false
   gem "coveralls", ">= 0.8", require: false
   gem "rack-test"
   gem "rspec"

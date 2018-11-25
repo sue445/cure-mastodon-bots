@@ -39,7 +39,7 @@ build-rspec:
             code: |
               export RUBYOPT=-EUTF-8
               export CI=true
-              export CODECLIMATE_REPO_TOKEN=345e206f4ed868ab470360349c3d98b2bba2243053b22203894ebcb64dc9c5f2
+              export CC_TEST_REPORTER_ID=345e206f4ed868ab470360349c3d98b2bba2243053b22203894ebcb64dc9c5f2
               export MEMCACHED_HOST=memcached
 
         - bundle-install:
@@ -47,12 +47,18 @@ build-rspec:
             clear-path: true
 
         - script:
-            name: rspec
-            code: bundle exec rspec
+            name: Setup Code Climate test-reporter
+            code: |
+              # download test reporter as a static binary
+              curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+              chmod +x ./cc-test-reporter
 
         - script:
-            name: send report to codeclimate
-            code: bundle exec codeclimate-test-reporter
+            name: rspec
+            code: |
+              ./cc-test-reporter before-build
+              bundle exec rspec
+              ./cc-test-reporter after-build --coverage-input-type simplecov --exit-code $?
 
 build-rubocop:
     <<: *default
