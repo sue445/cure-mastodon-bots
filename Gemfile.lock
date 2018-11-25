@@ -10,8 +10,6 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     ast (2.4.0)
     byebug (10.0.2)
-    codeclimate-test-reporter (1.0.9)
-      simplecov (<= 0.13)
     coderay (1.1.2)
     concurrent-ruby (1.1.3)
     coveralls (0.8.19)
@@ -156,7 +154,6 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
-  codeclimate-test-reporter (>= 1.0.8)
   coveralls (>= 0.8)
   dalli
   dotenv
@@ -183,4 +180,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.16.6
+   1.17.1
