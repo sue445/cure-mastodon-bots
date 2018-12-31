@@ -8,7 +8,6 @@ gem "activesupport", require: "active_support/all"
 gem "dalli"
 gem "global"
 gem "holiday_jp"
-gem "jemalloc", require: false
 gem "mastodon-api", require: "mastodon"
 gem "puma"
 gem "puma-heroku"
