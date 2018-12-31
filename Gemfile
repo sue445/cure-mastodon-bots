@@ -2,13 +2,12 @@
 
 source "https://rubygems.org"
 
-ruby "2.5.3"
+ruby "2.6.0"
 
 gem "activesupport", require: "active_support/all"
 gem "dalli"
 gem "global"
 gem "holiday_jp"
-gem "jemalloc", require: false
 gem "mastodon-api", require: "mastodon"
 gem "puma"
 gem "puma-heroku"
