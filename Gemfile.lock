@@ -25,7 +25,7 @@ GEM
     docile (1.1.5)
     domain_name (0.5.20180417)
       unf (>= 0.0.5, < 1.0.0)
-    dotenv (2.5.0)
+    dotenv (2.6.0)
     foreman (0.85.0)
       thor (~> 0.19.1)
     global (1.1.0)
