@@ -130,7 +130,7 @@ GEM
       activesupport
       multi_xml
     temple (0.8.0)
-    term-ansicolor (1.7.0)
+    term-ansicolor (1.7.1)
       tins (~> 1.0)
     thor (0.19.4)
     thread_safe (0.3.6)
