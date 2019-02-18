@@ -57,7 +57,7 @@ GEM
     multi_json (1.13.1)
     multi_xml (0.6.0)
     mustermann (1.0.3)
-    oj (3.7.8)
+    oj (3.7.9)
     onkcop (0.53.0.3)
       rubocop (>= 0.53.0)
       rubocop-rspec (>= 1.24.0)
