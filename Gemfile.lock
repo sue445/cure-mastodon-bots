@@ -33,7 +33,7 @@ GEM
       activesupport (>= 2.0)
     hashdiff (0.3.8)
     hashie (3.6.0)
-    holiday_jp (0.7.0)
+    holiday_jp (0.7.1)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
