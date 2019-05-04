@@ -23,6 +23,7 @@ group :development do
   gem "foreman", require: false
   gem "onkcop", require: false
   gem "pry-byebug", group: :test
+  gem "rubocop-performance", require: false
 end
 
 group :test do
