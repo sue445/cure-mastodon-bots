@@ -16,6 +16,9 @@ Layout/AlignHash:
   EnforcedColonStyle:      table
   EnforcedHashRocketStyle: table
 
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
 Lint/ScriptPermission:
   Enabled: false
 
