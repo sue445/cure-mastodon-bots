@@ -140,7 +140,7 @@ GEM
     syobocalite (0.1.1)
       activesupport
       multi_xml
-    temple (0.8.1)
+    temple (0.8.2)
     term-ansicolor (1.7.1)
       tins (~> 1.0)
     thor (0.19.4)
