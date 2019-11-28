@@ -1,7 +1,7 @@
 begin
   require "dotenv"
   Dotenv.load
-rescue LoadError # rubocop:disable Lint/HandleExceptions
+rescue LoadError # rubocop:disable Lint/SuppressedException
 end
 
 ENV["RACK_ENV"] ||= "development"
