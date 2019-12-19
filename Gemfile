@@ -31,6 +31,7 @@ group :development do
 
   gem "pry-byebug", group: :test
   gem "rubocop-performance", require: false
+  gem "rubocop_auto_corrector", require: false
 end
 
 group :test do

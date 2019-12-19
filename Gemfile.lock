@@ -120,6 +120,8 @@ GEM
       rubocop (>= 0.71.0)
     rubocop-rspec (1.37.1)
       rubocop (>= 0.68.1)
+    rubocop_auto_corrector (0.3.0)
+      rubocop (>= 0.72.0)
     ruby-progressbar (1.10.1)
     safe_yaml (1.0.5)
     sengiri_yaml (0.0.3)
@@ -182,6 +184,7 @@ DEPENDENCIES
   rspec-its
   rubicure
   rubocop-performance
+  rubocop_auto_corrector
   simplecov
   sinatra
   slim
