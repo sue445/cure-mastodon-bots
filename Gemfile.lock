@@ -109,7 +109,7 @@ GEM
       activesupport (>= 5.0.0)
       hashie (>= 2.0.5)
       sengiri_yaml (>= 0.0.2)
-    rubocop (0.77.0)
+    rubocop (0.78.0)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
       parser (>= 2.6)
@@ -120,6 +120,8 @@ GEM
       rubocop (>= 0.71.0)
     rubocop-rspec (1.37.1)
       rubocop (>= 0.68.1)
+    rubocop_auto_corrector (0.3.0)
+      rubocop (>= 0.72.0)
     ruby-progressbar (1.10.1)
     safe_yaml (1.0.5)
     sengiri_yaml (0.0.3)
@@ -182,6 +184,7 @@ DEPENDENCIES
   rspec-its
   rubicure
   rubocop-performance
+  rubocop_auto_corrector
   simplecov
   sinatra
   slim
