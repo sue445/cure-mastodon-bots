@@ -140,7 +140,7 @@ GEM
     slim (4.0.1)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
-    syobocalite (0.1.1)
+    syobocalite (1.0.0)
       activesupport
       multi_xml
     temple (0.8.2)
