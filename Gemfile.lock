@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/sue445/onkcop.git
+  remote: git://github.com/sue445/onkcop.git
   revision: ce88a0b298acba6aaed1850e78dcd6f86db9331c
   branch: develop
   specs:
@@ -195,7 +195,7 @@ DEPENDENCIES
   webmock
 
 RUBY VERSION
-   ruby 2.7.0p0
+   ruby 2.6.5p114
 
 BUNDLED WITH
-   2.1.2
+   1.17.2
