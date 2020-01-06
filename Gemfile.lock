@@ -140,6 +140,7 @@ GEM
     slim (4.0.1)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
+    sync (0.5.0)
     syobocalite (1.0.0)
       activesupport
       multi_xml
@@ -150,7 +151,8 @@ GEM
     thread_safe (0.3.6)
     tilt (2.0.10)
     timecop (0.9.1)
-    tins (1.22.2)
+    tins (1.23.0)
+      sync
     tzinfo (1.2.6)
       thread_safe (~> 0.1)
     unf (0.1.4)
