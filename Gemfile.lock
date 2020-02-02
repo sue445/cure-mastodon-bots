@@ -41,7 +41,7 @@ GEM
     global (1.1.0)
       activesupport (>= 2.0)
     hashdiff (1.0.0)
-    hashie (4.0.0)
+    hashie (4.1.0)
     holiday_jp (0.7.1)
     http (3.3.0)
       addressable (~> 2.3)
