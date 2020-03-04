@@ -67,7 +67,7 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.2)
-    oj (3.10.3)
+    oj (3.10.5)
     parallel (1.19.1)
     parser (2.7.0.4)
       ast (~> 2.4.0)
