@@ -19,8 +19,7 @@ task :environment do
   Bundler.require(:default, ENV["RACK_ENV"])
 
   Global.configure do |config|
-    config.environment = ENV["RACK_ENV"]
-    config.config_directory = "#{__dir__}/config/global"
+    config.backend :filesystem, environment: ENV["RACK_ENV"], path: "#{__dir__}/config/global"
   end
 
   Rollbar.configure do |config|
