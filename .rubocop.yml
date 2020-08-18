@@ -26,5 +26,8 @@ Lint/ScriptPermission:
 Metrics/BlockLength:
   Max: 28
 
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: comma
