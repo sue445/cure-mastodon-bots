@@ -65,7 +65,7 @@ GEM
     multi_xml (0.6.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.2)
+    nio4r (2.5.3)
     oj (3.10.14)
     parallel (1.19.2)
     parser (2.7.1.4)
