@@ -1,0 +1,62 @@
+version: 2.1
+
+orbs:
+  codeclimate: sue445/codeclimate@volatile
+  ruby-orbs:   sue445/ruby-orbs@volatile
+  heroku:      circleci/heroku@volatile
+  slack:       circleci/slack@3
+
+executors:
+  default:
+    docker:
+      - image: circleci/ruby:2.6.6
+        environment:
+          RACK_ENV: test
+          CC_TEST_REPORTER_ID: 345e206f4ed868ab470360349c3d98b2bba2243053b22203894ebcb64dc9c5f2
+          MEMCACHED_HOST: localhost
+      - image: memcached:1.5-alpine
+    working_directory: ~/app
+
+jobs:
+  rspec:
+    executor:
+      name: default
+
+    steps:
+      - checkout
+      - ruby-orbs/bundle-install:
+          cache_key_prefix: "v1-bundle"
+      - codeclimate/with-cc-test-reporter:
+          after_build_args: '--coverage-input-type simplecov'
+          steps:
+            - run: bundle exec rspec
+      - slack/status
+
+  rubocop:
+    executor:
+      name: default
+
+    steps:
+      - checkout
+      - ruby-orbs/bundle-install:
+          cache_key_prefix: "v1-bundle"
+      - run: bundle exec rubocop
+      - slack/status
+
+workflows:
+  version: 2
+
+  build-and-deploy:
+    jobs:
+      - rspec
+      - rubocop
+      - heroku/deploy-via-git:
+          context: Heroku
+          requires:
+            - rspec
+            - rubocop
+          filters:
+            branches:
+              only: master
+          post-deploy:
+            - slack/status

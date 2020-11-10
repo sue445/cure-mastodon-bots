@@ -5,7 +5,7 @@ Precure mastodon bot
 * https://precure.ml/@precure_onair_bot
 * https://cure-mastodon-bots.herokuapp.com/
 
-[![wercker status](https://app.wercker.com/status/766e3640dce38988ae94a23dd279c71e/s/master "wercker status")](https://app.wercker.com/project/byKey/766e3640dce38988ae94a23dd279c71e)
+[![CircleCI](https://circleci.com/gh/sue445/cure-mastodon-bots.svg?style=svg)](https://circleci.com/gh/sue445/cure-mastodon-bots)
 [![Coverage Status](https://coveralls.io/repos/github/sue445/cure-mastodon-bots/badge.svg?branch=HEAD)](https://coveralls.io/github/sue445/cure-mastodon-bots?branch=HEAD)
 
 ## Setup
