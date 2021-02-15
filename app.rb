@@ -50,7 +50,7 @@ class App < Sinatra::Base
 
       date_girls.select! {|date, _girl| (from_date..to_date).cover?(date) }
 
-      Hash[date_girls.sort]
+      date_girls.sort.to_h
     end
 
     def precure_programs
