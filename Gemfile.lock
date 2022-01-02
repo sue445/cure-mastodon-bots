@@ -101,10 +101,10 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.2)
-    rubicure (2.1.5)
+    rubicure (3.0.0)
       activesupport (>= 5.0.0)
       hashie (>= 2.0.5)
-      sengiri_yaml (>= 0.0.2)
+      sengiri_yaml (>= 1.0.0)
     rubocop (1.24.1)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
@@ -125,7 +125,7 @@ GEM
       rubocop (>= 1.13.0)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.4)
-    sengiri_yaml (0.0.4)
+    sengiri_yaml (1.0.0)
     simplecov (0.16.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
@@ -161,7 +161,7 @@ GEM
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
-    zeitwerk (2.5.1)
+    zeitwerk (2.5.3)
 
 PLATFORMS
   ruby
