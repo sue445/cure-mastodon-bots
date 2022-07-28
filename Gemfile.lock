@@ -45,6 +45,7 @@ GEM
     i18n (1.11.0)
       concurrent-ruby (~> 1.0)
     json (2.6.2)
+    libxml-ruby (3.2.3)
     mastodon-api (2.0.0)
       addressable (~> 2.6)
       buftok (~> 0)
@@ -173,6 +174,7 @@ DEPENDENCIES
   foreman
   global
   holiday_jp
+  libxml-ruby
   mastodon-api
   onkcop (>= 1.0.0.0)
   pry-byebug
@@ -196,3 +198,6 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 3.0.4p208
+
+BUNDLED WITH
+   2.2.33
