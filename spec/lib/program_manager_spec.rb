@@ -1,6 +1,6 @@
 describe ProgramManager do
   describe ".search" do
-    subject(:programs) { ProgramManager.search(start_at: start_at, end_at: end_at, squeeze: squeeze) }
+    subject(:programs) { ProgramManager.search(start_at:, end_at:, squeeze:) }
 
     before do
       stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=1&start=2017-05-07").

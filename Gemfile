@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "3.0.4"
+ruby "3.1.2"
 
 gem "activesupport", require: "active_support/all"
 gem "dalli"
