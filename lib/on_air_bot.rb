@@ -25,10 +25,10 @@ class OnAirBot < Bot
     def current_programs
       current_time = Time.current
       min = current_time.min - (current_time.min % 10)
-      start_at = current_time.change(min: min, sec: 0) + DELAY_MINUTES.minutes
+      start_at = current_time.change(min:, sec: 0) + DELAY_MINUTES.minutes
       end_at = start_at + RANGE_MINUTES.minutes
 
-      ProgramManager.search(start_at: start_at, end_at: end_at, squeeze: true)
+      ProgramManager.search(start_at:, end_at:, squeeze: true)
     end
 
     def generate_message(program, ch_names)

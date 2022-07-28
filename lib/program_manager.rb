@@ -11,7 +11,7 @@ class ProgramManager
   #
   # @return [Array<Syobocalite::Program>]
   def self.search(start_at:, end_at:, squeeze: false)
-    programs = Syobocalite.search(start_at: start_at, end_at: end_at)
+    programs = Syobocalite.search(start_at:, end_at:)
 
     programs.select! {|program| program.title.include?(NOTIFY_TITLE) } if squeeze
 

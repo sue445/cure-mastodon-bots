@@ -5,17 +5,17 @@ describe ProgramWithFormat do # rubocop:disable RSpec/FilePath
 
       let(:program) do
         Syobocalite::Program.new(
-          pid:          pid,
-          tid:          tid,
+          pid:,
+          tid:,
           st_time:      st_time.in_time_zone,
           ed_time:      ed_time.in_time_zone,
-          ch_name:      ch_name,
-          ch_id:        ch_id,
-          count:        count,
-          st_offset:    st_offset,
-          sub_title:    sub_title,
-          title:        title,
-          prog_comment: prog_comment,
+          ch_name:,
+          ch_id:,
+          count:,
+          st_offset:,
+          sub_title:,
+          title:,
+          prog_comment:,
         )
       end
 
