@@ -50,6 +50,7 @@ jobs:
 
     environment:
       MASTODON_URL: https://precure.ml
+      RACK_ENV: production
 
     steps:
       - checkout
