@@ -3,11 +3,9 @@
 source "https://rubygems.org"
 
 gem "activesupport", require: "active_support/all"
-gem "holiday_jp"
 gem "libxml-ruby"
 gem "mastodon-api", require: "mastodon"
 gem "rake", require: false
-gem "rollbar"
 gem "rubicure"
 gem "syobocalite"
 

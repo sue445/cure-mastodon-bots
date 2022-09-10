@@ -29,7 +29,6 @@ GEM
     foreman (0.87.2)
     hashdiff (1.0.1)
     hashie (5.0.0)
-    holiday_jp (0.8.1)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -69,7 +68,6 @@ GEM
     rake (13.0.6)
     regexp_parser (2.5.0)
     rexml (3.2.5)
-    rollbar (3.3.1)
     rspec (3.11.0)
       rspec-core (~> 3.11.0)
       rspec-expectations (~> 3.11.0)
@@ -145,13 +143,11 @@ DEPENDENCIES
   coveralls (>= 0.8)
   dotenv
   foreman
-  holiday_jp
   libxml-ruby
   mastodon-api
   onkcop (>= 1.0.0.0)
   pry-byebug
   rake
-  rollbar
   rspec
   rspec-its
   rubicure
@@ -162,9 +158,6 @@ DEPENDENCIES
   syobocalite
   timecop
   webmock
-
-RUBY VERSION
-   ruby 3.1.2p20
 
 BUNDLED WITH
    2.2.33
