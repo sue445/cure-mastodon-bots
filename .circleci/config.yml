@@ -40,6 +40,21 @@ jobs:
       - run: bundle exec rubocop
       - slack/notify-on-failure
 
+  run_bot:
+    executor:
+      name: default
+
+    parameters:
+      rake_task:
+        type: string
+
+    steps:
+      - checkout
+      - ruby-orbs/bundle-install:
+          cache_key_prefix: "v1-bundle"
+      - run: bundle exec rake << parameters.rake_task >>
+      - slack/notify-on-failure
+
 workflows:
   version: 2
 
@@ -47,3 +62,41 @@ workflows:
     jobs:
       - rspec
       - rubocop
+
+  birthday:
+    triggers:
+      - schedule:
+          # JST 0:00
+          cron: "0 15 * * *"
+          filters:
+            branches:
+              only: master
+
+    jobs:
+      - run_bot:
+          rake_task: "bot:birthday"
+
+  today_on_air:
+    triggers:
+      - schedule:
+          # JST 0:00
+          cron: "0 15 * * *"
+          filters:
+            branches:
+              only: master
+
+    jobs:
+      - run_bot:
+          rake_task: "bot:today_on_air"
+
+  on_air:
+    triggers:
+      - schedule:
+          cron: "20,50 * * * *"
+          filters:
+            branches:
+              only: master
+
+    jobs:
+      - run_bot:
+          rake_task: "bot:on_air"
