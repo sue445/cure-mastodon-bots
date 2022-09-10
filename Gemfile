@@ -12,7 +12,6 @@ gem "syobocalite"
 group :development do
   gem "dotenv"
   gem "onkcop", ">= 1.0.0.0", require: false
-  gem "pry-byebug", group: :test
   gem "rubocop_auto_corrector", require: false
   gem "rubocop-performance", require: false
   gem "rubocop-rspec", ">= 2.0.0.pre", require: false
