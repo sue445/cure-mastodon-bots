@@ -26,7 +26,6 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.8.1)
-    foreman (0.87.2)
     hashdiff (1.0.1)
     hashie (5.0.0)
     http (3.3.0)
@@ -142,7 +141,6 @@ DEPENDENCIES
   activesupport
   coveralls (>= 0.8)
   dotenv
-  foreman
   libxml-ruby
   mastodon-api
   onkcop (>= 1.0.0.0)

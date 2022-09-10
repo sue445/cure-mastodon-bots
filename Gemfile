@@ -11,7 +11,6 @@ gem "syobocalite"
 
 group :development do
   gem "dotenv"
-  gem "foreman", require: false
   gem "onkcop", ">= 1.0.0.0", require: false
   gem "pry-byebug", group: :test
   gem "rubocop_auto_corrector", require: false
