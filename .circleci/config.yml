@@ -48,6 +48,9 @@ jobs:
       rake_task:
         type: string
 
+    environment:
+      MASTODON_URL: https://precure.ml
+
     steps:
       - checkout
       - ruby-orbs/bundle-install:
