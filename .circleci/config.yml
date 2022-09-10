@@ -105,11 +105,11 @@ workflows:
       - run_bot:
           rake_task: "bot:on_air"
 
-  # bot_test:
-  #   jobs:
-  #     - approval_bot:
-  #         type: approval
-  #     - run_bot:
-  #         rake_task: "bot:sample"
-  #         requires:
-  #           - approval_bot
+  bot_test:
+    jobs:
+      - approval_bot:
+          type: approval
+      - run_bot:
+          rake_task: "bot:sample"
+          requires:
+            - approval_bot
