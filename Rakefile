@@ -12,19 +12,9 @@ begin
 rescue LoadError # rubocop:disable Lint/SuppressedException
 end
 
-require "rollbar/rake_tasks"
-
 task :environment do
   ENV["RACK_ENV"] ||= "development"
   Bundler.require(:default, ENV["RACK_ENV"])
-
-  Global.configure do |config|
-    config.backend :filesystem, environment: ENV["RACK_ENV"], path: "#{__dir__}/config/global"
-  end
-
-  Rollbar.configure do |config|
-    config.access_token = ENV["ROLLBAR_ACCESS_TOKEN"]
-  end
 end
 
 namespace :bot do
@@ -51,12 +41,4 @@ namespace :bot do
     require_relative "./lib/today_on_air_bot"
     TodayOnAirBot.new.perform
   end
-end
-
-desc "Clear cache"
-task :clear_cache => :environment do
-  require_relative "./lib/cache_utils"
-
-  CacheUtils.cache_client.flush_all
-  puts "Cache cleared"
 end
