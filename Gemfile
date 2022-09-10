@@ -4,7 +4,12 @@ source "https://rubygems.org"
 
 gem "activesupport", require: "active_support/all"
 gem "libxml-ruby"
-gem "mastodon-api", require: "mastodon"
+
+# FIXME: Workaround for FrozenError: can't modify frozen String: ""
+# c.f. https://github.com/mastodon/mastodon-api/issues/49
+# gem "mastodon-api", require: "mastodon"
+gem "mastodon-api", require: "mastodon", github: "ashphy/mastodon-api", branch: "master", ref: "69adfb4" # https://github.com/ashphy/mastodon-api/commit/69adfb4f6c4fd77874e4a3f6f3e335aecbf3c794
+
 gem "rake", require: false
 gem "rubicure"
 gem "syobocalite"
