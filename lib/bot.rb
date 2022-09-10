@@ -7,6 +7,9 @@ class Bot
       ::Mastodon::REST::Client.new(
         base_url:     mastodon_url,
         bearer_token: access_token,
+        timeout:      {
+          read: 10,
+        },
       )
   end
 
