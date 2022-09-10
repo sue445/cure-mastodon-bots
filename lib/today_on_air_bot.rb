@@ -9,7 +9,10 @@ class TodayOnAirBot < Bot
   def perform
     on_air_programs = current_programs
 
-    return if on_air_programs.empty?
+    if on_air_programs.empty?
+      puts "Doesn't found on air programs"
+      return
+    end
 
     message = "今日のプリキュア\n"
 

@@ -12,7 +12,10 @@ class OnAirBot < Bot
   def perform
     on_air_programs = current_programs
 
-    return if on_air_programs.empty?
+    if on_air_programs.empty?
+      puts "Doesn't found on air programs"
+      return
+    end
 
     ProgramManager.each_with_same_story_number(on_air_programs) do |program, ch_names|
       message = generate_message(program, ch_names)
