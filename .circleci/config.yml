@@ -22,7 +22,7 @@ jobs:
     steps:
       - checkout
       - ruby-orbs/bundle-install:
-          cache_key_prefix: "v1-bundle"
+          cache_key_prefix: "v2-bundle"
       - codeclimate/with-cc-test-reporter:
           after_build_args: '--coverage-input-type simplecov'
           steps:
