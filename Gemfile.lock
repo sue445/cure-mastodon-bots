@@ -87,7 +87,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
-    rubicure (3.1.5)
+    rubicure (3.2.0.rc1)
       activesupport (>= 5.0.0)
       hashie (>= 2.0.5)
       sengiri_yaml (>= 1.0.0)
@@ -157,7 +157,7 @@ DEPENDENCIES
   rake
   rspec
   rspec-its
-  rubicure
+  rubicure (>= 3.2.0.rc1)
   rubocop-performance
   rubocop-rspec (>= 2.0.0.pre)
   rubocop_auto_corrector
@@ -167,4 +167,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   2.2.33
+   2.4.10
