@@ -1,4 +1,4 @@
-require_relative "./syobocalite_ext"
+require_relative "syobocalite_ext"
 
 class ProgramManager
   NOTIFY_TITLE = "プリキュア".freeze

@@ -1,4 +1,4 @@
-require_relative "./bot"
+require_relative "bot"
 
 class SampleBot < Bot
   def initialize
