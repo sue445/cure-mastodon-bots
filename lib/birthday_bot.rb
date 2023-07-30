@@ -1,4 +1,4 @@
-require_relative "./bot"
+require_relative "bot"
 
 class BirthdayBot < Bot
   def initialize

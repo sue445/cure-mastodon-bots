@@ -1,5 +1,5 @@
-require_relative "./bot"
-require_relative "./program_manager"
+require_relative "bot"
+require_relative "program_manager"
 
 class TodayOnAirBot < Bot
   def initialize
