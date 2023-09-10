@@ -30,7 +30,6 @@ Metrics/BlockLength:
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
 
-
 RSpec/SpecFilePathFormat:
   Exclude:
     - spec/lib/syobocalite_ext_spec.rb
