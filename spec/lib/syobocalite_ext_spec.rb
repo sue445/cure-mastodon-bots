@@ -1,4 +1,4 @@
-describe ProgramWithFormat do # rubocop:disable RSpec/FilePath
+describe ProgramWithFormat do
   describe Syobocalite::Program do
     describe "#format" do
       subject { program.format(ch_names) }
