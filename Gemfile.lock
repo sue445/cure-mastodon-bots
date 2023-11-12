@@ -13,7 +13,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.1.1)
+    activesupport (7.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -26,7 +26,7 @@ GEM
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
-    base64 (0.1.1)
+    base64 (0.2.0)
     bigdecimal (3.1.4)
     buftok (0.3.0)
     concurrent-ruby (1.2.2)
@@ -44,7 +44,7 @@ GEM
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.8.1)
-    drb (2.1.1)
+    drb (2.2.0)
       ruby2_keywords
     ffi (1.15.5)
     ffi-compiler (1.0.1)
@@ -70,7 +70,7 @@ GEM
       rake (~> 13.0)
     minitest (5.20.0)
     multi_xml (0.6.0)
-    mutex_m (0.1.2)
+    mutex_m (0.2.0)
     oj (3.13.21)
     onkcop (1.0.0.0)
       rubocop (>= 0.80.0)
