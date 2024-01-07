@@ -15,9 +15,9 @@ describe ProgramManager do
 
       its(:count) { should eq 3 }
 
-      it "title all include '#{ProgramManager::NOTIFY_TITLE}'" do
+      it "title all include 'プリキュア' or 'ぷりきゅあ'" do
         titles = subject.map(&:title)
-        expect(titles).to all(include(ProgramManager::NOTIFY_TITLE))
+        expect(titles).to all(include("プリキュア").or(include("ぷりきゅあ")))
       end
 
       describe "[0]" do

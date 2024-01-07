@@ -1,19 +1,19 @@
 require_relative "syobocalite_ext"
 
 class ProgramManager
-  NOTIFY_TITLE = "プリキュア".freeze
+  NOTIFY_TITLES = %w[プリキュア ぷりきゅあ].freeze
 
   # Get programs from start_at to end_at
   #
   # @param start_at [Time]
   # @param end_at   [Time]
-  # @param squeeze  [Boolean] Whether squeeze with {NOTIFY_TITLE}
+  # @param squeeze  [Boolean] Whether squeeze with プリキュア or ぷりきゅあ
   #
   # @return [Array<Syobocalite::Program>]
   def self.search(start_at:, end_at:, squeeze: false)
     programs = Syobocalite.search(start_at:, end_at:)
 
-    programs.select! {|program| program.title.include?(NOTIFY_TITLE) } if squeeze
+    programs.select! {|program| NOTIFY_TITLES.any? {|title| program.title.include?(title) } } if squeeze
 
     programs
   end
