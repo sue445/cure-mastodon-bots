@@ -142,7 +142,7 @@ GEM
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
     sync (0.5.0)
-    syobocalite (1.0.1)
+    syobocalite (1.1.0)
       activesupport
       multi_xml
     term-ansicolor (1.7.1)
