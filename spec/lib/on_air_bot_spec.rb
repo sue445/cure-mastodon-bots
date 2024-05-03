@@ -6,7 +6,7 @@ describe OnAirBot do
 
     context "has story_number and sub_title" do
       before do
-        stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=1&start=2017-05-07").
+        stub_request(:get, "https://cal.syoboi.jp/cal_chk.php?days=1&start=2017-05-07").
           to_return(status: 200, body: read_stub("cal_chk_20170507.xml"))
 
         Timecop.freeze("2017-05-07 08:21:30".in_time_zone)
@@ -32,7 +32,7 @@ describe OnAirBot do
 
     context "no story_number and sub_title" do
       before do
-        stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=1&start=2017-10-15").
+        stub_request(:get, "https://cal.syoboi.jp/cal_chk.php?days=1&start=2017-10-15").
           to_return(status: 200, body: read_stub("cal_chk_20171015.xml"))
 
         Timecop.freeze("2017-10-15 13:21:30".in_time_zone)

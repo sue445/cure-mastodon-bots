@@ -69,7 +69,8 @@ GEM
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
     minitest (5.22.3)
-    multi_xml (0.6.0)
+    multi_xml (0.7.1)
+      bigdecimal (~> 3.1)
     mutex_m (0.2.0)
     oj (3.13.21)
     onkcop (1.0.0.0)
@@ -142,7 +143,7 @@ GEM
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
     sync (0.5.0)
-    syobocalite (1.1.0)
+    syobocalite (1.1.1)
       activesupport
       multi_xml
     term-ansicolor (1.7.1)
