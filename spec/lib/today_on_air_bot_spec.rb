@@ -6,7 +6,7 @@ describe TodayOnAirBot do
 
     context "when daytime programs" do
       before do
-        stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=2&start=2017-10-14").
+        stub_request(:get, "https://cal.syoboi.jp/cal_chk.php?days=2&start=2017-10-14").
           to_return(status: 200, body: read_stub("cal_chk_20171014-20171015.xml"))
 
         Timecop.freeze("2017-10-15 00:00:30".in_time_zone)
@@ -36,7 +36,7 @@ describe TodayOnAirBot do
 
     context "when midnight programs" do
       before do
-        stub_request(:get, "http://cal.syoboi.jp/cal_chk.php?days=2&start=2018-04-06").
+        stub_request(:get, "https://cal.syoboi.jp/cal_chk.php?days=2&start=2018-04-06").
           to_return(status: 200, body: read_stub("cal_chk_20180406-20180407.xml"))
 
         Timecop.freeze("2018-04-07 00:00:30".in_time_zone)
