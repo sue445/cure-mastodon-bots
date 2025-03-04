@@ -13,6 +13,7 @@ gem "mastodon-api", require: "mastodon", github: "daverooneyca/mastodon-api", br
 gem "rake", require: false
 gem "rubicure", ">= 3.2.0.rc1"
 gem "syobocalite"
+gem "uri", ">= 1.0.3"
 
 group :development do
   gem "dotenv"
