@@ -176,8 +176,9 @@ DEPENDENCIES
   rspec
   rspec-its
   rubicure (>= 3.2.0.rc1)
-  rubocop-performance
-  rubocop-rspec (>= 2.0.0.pre)
+  rubocop (>= 1.72.0)
+  rubocop-performance (>= 1.24.0)
+  rubocop-rspec (>= 3.5.0)
   rubocop_auto_corrector
   simplecov
   syobocalite
