@@ -1,4 +1,5 @@
 require_relative "bot"
+require_relative "birthday_calendar_client"
 
 class BirthdayBot < Bot
   def initialize
@@ -8,15 +9,23 @@ class BirthdayBot < Bot
   def perform
     today = Time.current.to_date
 
-    birthday_girls = Precure.all.select {|girl| girl.birthday?(today) }
+    message = BirthdayBot.generate_message(today)
 
-    if birthday_girls.empty?
-      puts "#{today} is not nobody's birthday"
+    if message
+      post_message(message)
     else
-      birthday_girls.each do |girl|
-        post_message("今日は#{girl.precure_name}（Cv. #{girl.cast_name}）の誕生日です！")
-      end
+      puts "#{today} is not nobody's birthday"
     end
+  end
+
+  # @param date [Date]
+  # @return [String]
+  def self.generate_message(date)
+    names = BirthdayCalendarClient.new.find_by_birthday(date)
+
+    return nil if names.empty?
+
+    "今日は#{names.join("、")}の誕生日です！ https://sue445.github.io/precure-birthday-calendar/"
   end
 end
 

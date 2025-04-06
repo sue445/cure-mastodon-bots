@@ -1,29 +1,25 @@
 describe BirthdayBot do
-  let(:bot) { BirthdayBot.new }
+  describe ".generate_message" do
+    subject { BirthdayBot.generate_message(date) }
 
-  describe "#perform" do
-    context "When birthday of someone" do
-      before do
-        Timecop.freeze("2016-06-12".in_time_zone)
-      end
+    include_context :setup_birthday_calendar_stub
 
-      it "posts tweet" do
-        allow(bot).to receive(:post_message)
-        bot.perform
-        expect(bot).to have_received(:post_message).with("今日はキュアミラクル（Cv. 高橋李依）の誕生日です！")
-      end
+    context "When birthday of 1 person" do
+      let(:date) { Date.parse("2016-06-12") }
+
+      it { should eq "今日はキュアミラクル(朝日奈みらい)の誕生日です！ https://sue445.github.io/precure-birthday-calendar/" }
+    end
+
+    context "When birthday of multiple persons" do
+      let(:date) { Date.parse("2025-04-12") }
+
+      it { should eq "今日はキュアスター(星奈ひかる)、パムパムの誕生日です！ https://sue445.github.io/precure-birthday-calendar/" }
     end
 
     context "When birthday of nobody" do
-      before do
-        Timecop.freeze("2016-01-01".in_time_zone)
-      end
+      let(:date) { Date.parse("2016-01-01") }
 
-      it "does not post tweet" do
-        allow(bot).to receive(:post_message)
-        bot.perform
-        expect(bot).not_to have_received(:post_message)
-      end
+      it { should eq nil }
     end
   end
 end

@@ -16,6 +16,9 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
 
+Layout/ClassStructure:
+  Enabled: false
+
 Layout/HashAlignment:
   EnforcedColonStyle:      table
   EnforcedHashRocketStyle: table
