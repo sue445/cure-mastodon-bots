@@ -19,7 +19,7 @@ describe BirthdayBot do
     context "When birthday of nobody" do
       let(:date) { Date.parse("2016-01-01") }
 
-      it { should eq nil }
+      it { should be nil }
     end
   end
 end
