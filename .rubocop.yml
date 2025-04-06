@@ -26,6 +26,9 @@ Layout/HashAlignment:
 Layout/IndentationConsistency:
   EnforcedStyle: indented_internal_methods
 
+Layout/IndentationWidth:
+  Enabled: false
+
 Lint/ScriptPermission:
   Enabled: false
 
@@ -34,6 +37,9 @@ Metrics/BlockLength:
 
 RSpec/MultipleMemoizedHelpers:
   Enabled: false
+
+RSpec/SharedExamples:
+  EnforcedStyle: symbol
 
 RSpec/SpecFilePathFormat:
   Exclude:
