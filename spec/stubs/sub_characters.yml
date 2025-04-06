@@ -1,0 +1,56 @@
+title: プリキュアのサブキャラ
+
+# https://github.com/sue445/rubicure で定義されていないキャラの誕生日のみ記載する
+characters:
+  # ＨＵＧっと！プリキュア
+  - name:     はぐたん
+    birthday: 10/21
+
+  # ヒーリングっど♥プリキュア
+  # c.f. http://www.toei-anim.co.jp/tv/precure/character/chara4.php
+  - name:     ラビリン
+    birthday: 3/3
+
+  - name:     ペギタン
+    birthday: 4/25
+
+  - name:     ニャトラン
+    birthday: 2/22
+
+  - name:     ラテ
+    birthday: 11/1
+
+  # トロピカル～ジュ！プリキュア
+  # c.f. https://twitter.com/miso_katsu/status/1450085557258780674
+  - name:     くるるん
+    birthday: 9/6
+
+  # デリシャスパーティ♡プリキュア
+  # c.f. https://www.toei-anim.co.jp/tv/precure/character/energy1.php
+  - name:     コメコメ
+    birthday: 8/18
+
+  - name:     パムパム
+    birthday: 4/12
+
+  - name:     メンメン
+    birthday: 11/11
+
+  # c.f. https://www.toei-anim.co.jp/tv/precure/character/oicina1.php#charaarea
+  - name:     品田拓海
+    birthday: 11/3
+
+  # c.f. https://www.toei-anim.co.jp/tv/precure/character/cooking1.php
+  - name:     ローズマリー
+    birthday: 8/2
+
+  # わんだふるぷりきゅあ！
+  - name:     兎山悟
+    birthday: 9/7
+
+  - name:     兎山大福
+    birthday: 3/27
+
+  - name:        ナツキ
+    birthday:    7/15
+    description: ファミコンが発売された日

@@ -15,6 +15,7 @@ Bundler.require(:default, :test)
 ENV["RACK_ENV"] = "test"
 
 require_relative "../lib/birthday_bot"
+require_relative "../lib/birthday_calendar_client"
 require_relative "../lib/on_air_bot"
 require_relative "../lib/program_manager"
 require_relative "../lib/today_on_air_bot"
