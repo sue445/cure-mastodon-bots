@@ -6,8 +6,7 @@ class SampleBot < Bot
   end
 
   def perform
-    series_title = Precure.map(&:title).sample
-    post_message(series_title)
+    post_message("Test #{Time.now}")
   end
 end
 
