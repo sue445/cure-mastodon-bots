@@ -21,7 +21,7 @@ class BirthdayCalendarClient
         month.to_i == date.month && day.to_i == date.day
       end
 
-    characters.map { |character| character["name"] }.sort_by(&:itself)
+    characters.map {|character| character["name"] }.sort_by(&:itself)
   end
 
   private
