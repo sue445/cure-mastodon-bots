@@ -11,7 +11,6 @@ gem "libxml-ruby"
 gem "mastodon-api", require: "mastodon", github: "daverooneyca/mastodon-api", branch: "main"
 
 gem "rake", require: false
-gem "rubicure", ">= 3.2.0.rc1"
 gem "syobocalite"
 gem "uri", ">= 1.0.3"
 

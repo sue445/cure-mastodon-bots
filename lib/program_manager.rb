@@ -18,8 +18,8 @@ class ProgramManager
     programs
   end
 
-  # @param programs [Array<Hashie::Mash>]
-  # @yieldparam program [Program]
+  # @param programs [Array<Syobocalite::Program>]
+  # @yieldparam program [Syobocalite::Program]
   # @yieldparam ch_names [Array<String>]
   def self.each_with_same_story_number(programs)
     programs_by_title = programs.group_by {|program| [program.title, program.sub_title, program.st_time] }
