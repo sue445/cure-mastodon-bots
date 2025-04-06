@@ -53,7 +53,6 @@ GEM
       ffi (>= 1.15.5)
       rake
     hashdiff (1.1.2)
-    hashie (5.0.0)
     http (4.4.1)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -108,10 +107,6 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.1)
-    rubicure (4.1.0)
-      activesupport (>= 5.0.0)
-      hashie (>= 2.0.5)
-      sengiri_yaml (>= 1.0.0)
     rubocop (1.75.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
@@ -137,7 +132,6 @@ GEM
       rubocop (>= 1.30.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
-    sengiri_yaml (1.0.0)
     simplecov (0.16.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
@@ -177,7 +171,6 @@ DEPENDENCIES
   rake
   rspec
   rspec-its
-  rubicure (>= 3.2.0.rc1)
   rubocop (>= 1.72.0)
   rubocop-performance (>= 1.24.0)
   rubocop-rspec (>= 3.5.0)
