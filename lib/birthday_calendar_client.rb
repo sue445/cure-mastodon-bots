@@ -2,7 +2,7 @@ require "open-uri"
 require "yaml"
 
 class BirthdayCalendarClient
-  ALL_SERIES = %w(dancing_star precure sub_characters)
+  ALL_SERIES = %w[dancing_star precure sub_characters]
 
   # @return [Array<Hash>]
   def all_characters
