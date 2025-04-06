@@ -2,7 +2,7 @@ require "open-uri"
 require "yaml"
 
 class BirthdayCalendarClient
-  ALL_SERIES = %w(king_of_prism pretty_rhythm prichan pripara primagi aipri)
+  ALL_SERIES = %w(dancing_star precure sub_characters)
 
   # @return [Array<Hash>]
   def all_characters
@@ -28,9 +28,9 @@ class BirthdayCalendarClient
 
   # @param series [String]
   # @return [Hash]
-  # @see https://github.com/sue445/pretty-all-friends-birthday-calendar/tree/master/config
+  # @see https://github.com/sue445/precure-birthday-calendar/tree/master/config
   def fetch_config(series)
-    content = URI.parse("https://raw.githubusercontent.com/sue445/pretty-all-friends-birthday-calendar/master/config/#{series}.yml").read
+    content = URI.parse("https://raw.githubusercontent.com/sue445/precure-birthday-calendar/master/config/#{series}.yml").read
     YAML.load(content)
   end
 end
