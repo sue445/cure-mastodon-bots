@@ -23,10 +23,16 @@ jobs:
       - checkout
       - ruby-orbs/bundle-install:
           cache_key_prefix: "v2-bundle"
-      - codeclimate/with-cc-test-reporter:
-          after_build_args: '--coverage-input-type simplecov'
-          steps:
-            - run: bundle exec rspec
+
+      # FIXME: "Error: invalid character '<' looking for beginning of value" in teardown
+      # https://app.circleci.com/pipelines/github/sue445/cure-mastodon-bots/53277/workflows/1d65c9dc-f406-414d-b184-1a49a3399137/jobs/54384
+      #
+      # - codeclimate/with-cc-test-reporter:
+      #     after_build_args: '--coverage-input-type simplecov'
+      #     steps:
+      #       - run: bundle exec rspec
+      - run: bundle exec rspec
+
       - slack/notify-on-failure
 
   rubocop:
