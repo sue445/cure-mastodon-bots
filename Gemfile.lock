@@ -144,7 +144,7 @@ GEM
       multi_xml
     term-ansicolor (1.7.1)
       tins (~> 1.0)
-    thor (1.1.0)
+    thor (1.4.0)
     timecop (0.9.10)
     tins (1.28.0)
       sync
