@@ -64,7 +64,7 @@ GEM
       ffi-compiler (>= 1.0, < 2.0)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    json (2.16.0)
+    json (2.17.1)
     language_server-protocol (3.17.0.5)
     libxml-ruby (5.0.5)
     lint_roller (1.1.0)
@@ -127,7 +127,7 @@ GEM
     rubocop-rspec (3.8.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.81)
-    rubocop_auto_corrector (0.5.0)
+    rubocop_auto_corrector (0.5.1)
       rubocop (>= 1.30.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
@@ -204,7 +204,7 @@ CHECKSUMS
   http-form_data (2.3.0) sha256=cc4eeb1361d9876821e31d7b1cf0b68f1cf874b201d27903480479d86448a5f3
   http-parser (1.2.3) sha256=414dec1f443d68e1068509f184ee4b93e3442f626645071182ce49bc27db18a3
   i18n (1.14.7) sha256=ceba573f8138ff2c0915427f1fc5bdf4aa3ab8ae88c8ce255eb3ecf0a11a5d0f
-  json (2.16.0) sha256=ca5630320bb5ca23ebfd0bac84532fab56eb357575653b815b9df42c051e1525
+  json (2.17.1) sha256=e0e4824541336a44915436f53e7ea74c687314fb8f88080fa1456f6a34ead92e
   language_server-protocol (3.17.0.5) sha256=fd1e39a51a28bf3eec959379985a72e296e9f9acfce46f6a79d31ca8760803cc
   libxml-ruby (5.0.5) sha256=f1bc07152982df555d70159a694ee2a53539de2cdad4b3c8a447fbb15e7e4e9a
   lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
@@ -234,7 +234,7 @@ CHECKSUMS
   rubocop-ast (1.48.0) sha256=22df9bbf3f7a6eccde0fad54e68547ae1e2a704bf8719e7c83813a99c05d2e76
   rubocop-performance (1.26.1) sha256=cd19b936ff196df85829d264b522fd4f98b6c89ad271fa52744a8c11b8f71834
   rubocop-rspec (3.8.0) sha256=28440dccb3f223a9938ca1f946bd3438275b8c6c156dab909e2cb8bc424cab33
-  rubocop_auto_corrector (0.5.0) sha256=e2079177928b63b157402da966aba73e342247f83fd14dee7a981e2e14a7e152
+  rubocop_auto_corrector (0.5.1) sha256=c15bc11fea8ae2dc723079e1850639ac75a8cc92a0bfd69ca6daa28f4d861bdb
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   simplecov (0.16.1) sha256=8724f0911bbb2b7a3c11155e6d57987cad311f9e5ce7b305b1e2e67fdc73dee9
