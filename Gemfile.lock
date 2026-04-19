@@ -145,7 +145,7 @@ GEM
     term-ansicolor (1.7.1)
       tins (~> 1.0)
     thor (1.4.0)
-    timecop (0.9.10)
+    timecop (0.9.11)
     tins (1.28.0)
       sync
     tzinfo (2.0.6)
@@ -245,7 +245,7 @@ CHECKSUMS
   syobocalite (1.2.1) sha256=e842b1e61f52b34cd9011d7c37ac5e465195ae5a6786bdec163fc174e1263a38
   term-ansicolor (1.7.1) sha256=92339ffec77c4bddc786a29385c91601dd52fc68feda23609bba0491229b05f7
   thor (1.4.0) sha256=8763e822ccb0f1d7bee88cde131b19a65606657b847cc7b7b4b82e772bcd8a3d
-  timecop (0.9.10) sha256=12ba45ce57cdcf6b1043cb6cdffa6381fd89ce10d369c28a7f6f04dc1b0cd8eb
+  timecop (0.9.11) sha256=41284dc6e5041f2184f781ace766f942108c842f8d8c1386a26e6343decc7542
   tins (1.28.0) sha256=46d1401b98827721b64a8e8252fb94b34befd1364f3fd0020710b0ee315c4c03
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
   unicode-display_width (3.2.0) sha256=0cdd96b5681a5949cdbc2c55e7b420facae74c4aaf9a9815eee1087cb1853c42
