@@ -24,7 +24,7 @@ group :development do
 end
 
 group :test do
-  gem "coveralls", ">= 0.8", require: false
+  gem "coveralls_reborn", require: false
   gem "rspec"
   gem "rspec-its"
   gem "simplecov", require: false
