@@ -13,7 +13,7 @@ class ProgramManager
   def self.search(start_at:, end_at:, squeeze: false)
     programs = Syobocalite.search(start_at:, end_at:)
 
-    programs.select! {|program| NOTIFY_TITLES.any? {|title| program.title.include?(title) } } if squeeze # rubocop:disable Style/ArrayIntersect -- false positive ref. https://github.com/rubocop/rubocop/pull/15439
+    programs.select! {|program| NOTIFY_TITLES.any? {|title| program.title.include?(title) } } if squeeze
 
     programs
   end
