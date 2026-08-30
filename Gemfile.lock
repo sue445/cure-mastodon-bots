@@ -140,7 +140,7 @@ GEM
     securerandom (0.4.1)
     simplecov (1.1.1)
     sync (0.5.0)
-    syobocalite (1.2.1)
+    syobocalite (1.2.2)
       activesupport
       multi_xml
     term-ansicolor (1.11.3)
@@ -249,7 +249,7 @@ CHECKSUMS
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   simplecov (1.1.1) sha256=25825ef13f0b2e74694d769817dad6ab8e90131dabdaa666e522fea105521e78
   sync (0.5.0) sha256=668356cc07c59ac7ed9ecf34fec3929831f179c07adb1f3e1c3b7a1609a638fd
-  syobocalite (1.2.1) sha256=e842b1e61f52b34cd9011d7c37ac5e465195ae5a6786bdec163fc174e1263a38
+  syobocalite (1.2.2) sha256=83eb1c50e5410ce64ef78ee00654e00d27bdaeaf24ede48519cb82f9f366deb5
   term-ansicolor (1.11.3) sha256=8c01ec3abd095eb94dca8aed5a127d36e594239eb525eb306259c9e930534603
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
   timecop (0.9.11) sha256=41284dc6e5041f2184f781ace766f942108c842f8d8c1386a26e6343decc7542
