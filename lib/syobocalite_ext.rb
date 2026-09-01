@@ -1,5 +1,5 @@
 module ProgramWithFormat
-  # rubocop:disable Metrics/AbcSize
+  # rubocop:disable-next Metrics/AbcSize
   def format(ch_names = nil)
     ch_names = [ch_name] unless ch_names
 
@@ -26,7 +26,6 @@ module ProgramWithFormat
 
     message
   end
-  # rubocop:enable Metrics/AbcSize
 end
 
 Syobocalite::Program.class_eval do
